@@ -60,3 +60,15 @@ cglog.info("textContent =>", headerDiv.inner);
 // innerText => will return the output content next to each other without any Styling
 // textContent => will return the output with its styling applied.
 
+name3.value = "Alperen";
+// name3.setAttribute("value", "Alperen");
+
+
+// Hands-on:
+
+let fullName = document.querySelector("#full_name");
+fullName.value = `${name3.value.toUpperCase()} ${name4.toUpperCase()}`;
+
+let email = document.getElementById("email");
+email.value = `${name5.value.toLowerCase()}.${name6.value.toLowerCase()}@gmail.com`;
+
