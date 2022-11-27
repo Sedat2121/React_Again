@@ -72,3 +72,15 @@ fullName.value = `${name3.value.toUpperCase()} ${name4.toUpperCase()}`;
 let email = document.getElementById("email");
 email.value = `${name5.value.toLowerCase()}.${name6.value.toLowerCase()}@gmail.com`;
 
+
+// Creating an element in HTML 
+
+let logo = document.createElement("img");
+
+logo.setAttribute("src", "img/logo.png");
+logo.setAttribute("class", "headerLogo");
+
+headerDiv.appendChild(logo); // will display the created logo
+
+headerDiv.innerHTML += '<img src="img/logo.png" alt="bank logo" class="nav_logo" id="logo" />'; // this will do the same thing as above line.
+
