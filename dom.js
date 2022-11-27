@@ -44,3 +44,19 @@ name2.setAttribute("id", "new_name");
 
 name3.setAttribute("type", "radio"); // new type of the element will be "radio".
 
+
+
+// innerHTML, innerText, textContent, and (input=>)value  -------------------------------------------------------------------------
+
+let headerDiv = document.getElementById("headerId");
+
+console.log("innerHTML =>", headerDiv.innerHTML);
+console.log("innerText =>", headerDiv.innerText);
+cglog.info("textContent =>", headerDiv.inner);
+
+
+
+// innerHTML => will return all elements in this div
+// innerText => will return the output content next to each other without any Styling
+// textContent => will return the output with its styling applied.
+
