@@ -16,3 +16,31 @@ let name3 = document.querySelector(".first_name"); // accessing an element by it
 
 let name4 = document.querySelector(".first_name"); // will return first element only even if there are more elements with the same name
 
+let name5 = document.querySelector("[name='first_name']");  
+
+let name6 = document.querySelector("input[name=first_name]");  
+
+let name7 = document.querySelectorAll(".div"); // will return all elements with this "div" class name, a NodeList will be return 
+
+
+
+// getElementByClassName returns a HTML collection,
+// getElementByName returns a NodeList,
+// querySelectorAll returns a NodeList.
+
+
+
+// Property vs Attributes.  -----------------------------------------------------------------------------------------------------
+
+name1.getAttribute("id"); // will return the name of "id" attribute
+
+name1.getAttribute("class"); // will return the name of "class" attribute
+
+// getAttribute will display only,
+
+name2.setAttribute("id", "new_name"); 
+
+// setAttribute will change the value of the element. "id" value will be "new_name".
+
+name3.setAttribute("type", "radio"); // new type of the element will be "radio".
+
