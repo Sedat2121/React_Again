@@ -84,3 +84,4 @@ headerDiv.appendChild(logo); // will display the created logo
 
 headerDiv.innerHTML += '<img src="img/logo.png" alt="bank logo" class="nav_logo" id="logo" />'; // this will do the same thing as above line.
 
+let new_file = document.createElement("harun_Pasa");
