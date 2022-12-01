@@ -11,7 +11,7 @@
 <body>
     <form>
         <table border="1" cellpadding="5" cellspacing="0">
-            <tbody>
+            <tbody id="passtb">
                 <tr>
                     <td colspan="2" style="font:20px arial; text-align:center;">Sign In</td>
                 </tr>
@@ -19,17 +19,28 @@
                     <td id="email">Email Address</td>
                     <td>
                         <input type="email">
-                    </td>
+
+                    </td> <br><br>
                 </tr>
-                <tr>
-                    <td>Password</td>
+                <tr id="passtr">
+                    <td id="pass">Password</td>
                     <td>
                         <input type="password">
+
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2" style="text-align: center;">
                         <input id="button" type="button" value="Sign In">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label >Comments</label>
+                    </td>
+                    <td>
+                        <input id="comment" type="text" name="comments" maxlength="40">
+                        <span id="charCount"></span>
                     </td>
                 </tr>
             </tbody>
