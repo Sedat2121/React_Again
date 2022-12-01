@@ -55,3 +55,12 @@ comm.addEventListener("keyup", ()=> {
     charCount.innerText = comm.value.length + " / 40";
 });
 
+
+// Display birthday alert
+
+let yourbirthday = document.getElementById("date");
+yourbirthday.addEventListener("change", ()=> {
+    let year = new Date().getFullYear() - new Date(yourbirthday.value).getFullYear();
+    alert("Your are " + year + " years old.")
+});
+
