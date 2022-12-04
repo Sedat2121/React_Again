@@ -77,17 +77,38 @@ const teacher = {
 
 
 // new object
-let anObject = {
-    firstName: 'John',
-    age: 30,
-    isMarried: true,
-    introduce: () => {
-        return `${this.firstName} is ${this.age} years old.`;
-    },
-    introduce2: function () {
-        return `${this.firstName} is ${this.age} years old`;
-    },
-};
+// let anObject = {
+//     firstName: 'John',
+//     age: 30,
+//     isMarried: true,
+//     introduce: () => {
+//         return `${this.firstName} is ${this.age} years old.`;
+//     },
+//     introduce2: function () {
+//         return `${this.firstName} is ${this.age} years old`;
+//     },
+// };
 
-console.log(anObject.introduce());
-console.log(anObject.introduce2());
+// console.log(anObject.introduce());
+// console.log(anObject.introduce2());
+
+
+
+//                                  JavaScript Classes
+
+//                Abstruction, Encapsulation, Inheritance, and Polymorphism
+
+class Pet {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    walk() {
+        console.log("I am walikng");
+    }
+    speak() {
+        return "I like humanbeing";
+    }
+}
+
