@@ -118,6 +118,7 @@ class Pet {
 
 
  class Cat extends Pet {
+    #weight = 5; // keeping private information: encapsulation
     constructor(name, age, color) {
         super(name, age) // super => inheritence from parent element 
         this.color = color;
@@ -133,4 +134,3 @@ class Pet {
  const muezza = new Cat("muezza", 2, "grey");
  console.log(muezza.speak());
  muezza.walk();
- 
