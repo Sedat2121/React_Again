@@ -28,33 +28,33 @@
 
 // calcAgeArrow(1980);
 
-const teacher = {
-    birthYear: 1984,
-    calcAge() {
-        console.log("regular function in an Object");
-        console.log(this);
-        console.log(2022 - this.birthYear);
-    },
-    calcAgeArrow: () => {
-        console.log("arrow function in an Object");
-        console.log(this);
-        console.log(2022 - this.birthYear);
-    },
-    calcAgeDelayed() {
-        setTimeout(function () {
-            console.log("regular function in setTimeout");
-            console.log(this);
-            this.calcAge();
-        }, 2000);
-    },
-    calcAgeDelayedArrow: function () {
-        setTimeout(() => {
-            console.log("arrow function in setTimeout");
-            consol.log(this);
-            this.calcAge();
-        }, 2000); 
-    },
-};
+// const teacher = {
+//     birthYear: 1984,
+//     calcAge() {
+//         console.log("regular function in an Object");
+//         console.log(this);
+//         console.log(2022 - this.birthYear);
+//     },
+//     calcAgeArrow: () => {
+//         console.log("arrow function in an Object");
+//         console.log(this);
+//         console.log(2022 - this.birthYear);
+//     },
+//     calcAgeDelayed() {
+//         setTimeout(function () {
+//             console.log("regular function in setTimeout");
+//             console.log(this);
+//             this.calcAge();
+//         }, 2000);
+//     },
+//     calcAgeDelayedArrow: function () {
+//         setTimeout(() => {
+//             console.log("arrow function in setTimeout");
+//             consol.log(this);
+//             this.calcAge();
+//         }, 2000); 
+//     },
+// };
 
 // teacher.calcAge();
 // teacher.calcAgeArrow();
@@ -98,39 +98,69 @@ const teacher = {
 
 //                Abstruction, Encapsulation, Inheritance, and Polymorphism
 
-class Pet {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-    }
+// class Pet {
+//     constructor(name, age) {
+//         this.name = name;
+//         this.age = age;
+//     }
 
-    walk() {
-        console.log("I am walikng");
-    }
-    speak() {
-        return "I like humanbeing";
-    }
+//     walk() {
+//         console.log("I am walikng");
+//     }
+//     speak() {
+//         return "I like humanbeing";
+//     }
+// }
+
+
+//  const myPet = new Pet("Ruby", 3);  // inheritence
+//  myPet.walk();
+
+
+//  class Cat extends Pet {
+//     #weight = 5; // keeping private information: encapsulation
+//     constructor(name, age, color) {
+//         super(name, age) // super => inheritence from parent element 
+//         this.color = color;
+//     }
+
+//     speak() {
+//         let preMsg = super.speak();
+//         preMsg = " and I also like to meow";
+//         return preMsg;
+//     }
+//  }
+
+//  const muezza = new Cat("muezza", 2, "grey");
+//  console.log(muezza.speak());
+//  muezza.walk();
+
+
+ //  prototypes
+function Pet (name, age) {
+    this.name = name;
+    this.age = age;   
 }
 
+Pet.prototype.walk = function () {
+    console.log('I am walking');
+};
 
- const myPet = new Pet("Ruby", 3);  // inheritence
- myPet.walk();
+Pet.prototype.speak = function () {
+    return 'I like humans';
+};
 
+const myPet2 = new Pet('Karabas', 4);
+console. log (myPet2);
 
- class Cat extends Pet {
-    #weight = 5; // keeping private information: encapsulation
-    constructor(name, age, color) {
-        super(name, age) // super => inheritence from parent element 
-        this.color = color;
-    }
+function Cat (name, age, color) {
+    this.name = name;
+    this.age = age;
+    this.color = color;
+}
 
-    speak() {
-        let preMsg = super.speak();
-        preMsg = " and I also like to meow";
-        return preMsg;
-    }
- }
+Cat.prototype = Object.create (Pet.prototype); // binding Cat -- Pet
 
- const muezza = new Cat("muezza", 2, "grey");
- console.log(muezza.speak());
- muezza.walk();
+const pisi = new Cat('Pisi', 1, 'yellow');
+console.log (pisi);
+pisi.walk();
