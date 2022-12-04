@@ -112,3 +112,25 @@ class Pet {
     }
 }
 
+
+ const myPet = new Pet("Ruby", 3);  // inheritence
+ myPet.walk();
+
+
+ class Cat extends Pet {
+    constructor(name, age, color) {
+        super(name, age) // super => inheritence from parent element 
+        this.color = color;
+    }
+
+    speak() {
+        let preMsg = super.speak();
+        preMsg = " and I also like to meow";
+        return preMsg;
+    }
+ }
+
+ const muezza = new Cat("muezza", 2, "grey");
+ console.log(muezza.speak());
+ muezza.walk();
+ 
