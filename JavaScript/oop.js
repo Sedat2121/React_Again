@@ -17,7 +17,6 @@
 // console.log(person.calculateAge2());
 // console.log(person.age);
 
-
 // ! This Examples
 
 // const calcAgeArrow = (birthYear) => {
@@ -52,7 +51,7 @@
 //             console.log("arrow function in setTimeout");
 //             consol.log(this);
 //             this.calcAge();
-//         }, 2000); 
+//         }, 2000);
 //     },
 // };
 
@@ -60,7 +59,6 @@
 // teacher.calcAgeArrow();
 // teacher.calcAgeDelayed();
 // teacher.calcAgeDelayedArrow();
-
 
 // defining a new object !
 // const student = {
@@ -73,8 +71,6 @@
 // new object
 // const myFunc = teacher.calcAge();
 // myFunc();
-
-
 
 // new object
 // let anObject = {
@@ -91,8 +87,6 @@
 
 // console.log(anObject.introduce());
 // console.log(anObject.introduce2());
-
-
 
 //                                  JavaScript Classes
 
@@ -112,15 +106,13 @@
 //     }
 // }
 
-
 //  const myPet = new Pet("Ruby", 3);  // inheritence
 //  myPet.walk();
-
 
 //  class Cat extends Pet {
 //     #weight = 5; // keeping private information: encapsulation
 //     constructor(name, age, color) {
-//         super(name, age) // super => inheritence from parent element 
+//         super(name, age) // super => inheritence from parent element
 //         this.color = color;
 //     }
 
@@ -135,12 +127,11 @@
 //  console.log(muezza.speak());
 //  muezza.walk();
 
-
 //                                  prototypes
 
 // function Pet (name, age) {
 //     this.name = name;
-//     this.age = age;   
+//     this.age = age;
 // }
 
 // Pet.prototype.walk = function () {
@@ -166,30 +157,56 @@
 // console.log (pisi);
 // pisi.walk();
 
-
 //                               Getter and Setter
 
-const person = {
-    firstName: "Alperen",
-    birthYear: 1982,
-    location: {
-        city: "London",
+// const person = {
+//     firstName: "Alperen",
+//     birthYear: 1982,
+//     location: {
+//         city: "London",
+//     },
+//     get age() {
+//         return new Date().getFullYear() - this.birthYear;
+//     },
+//     set age(value) {
+//         if (value > 0 && value < 150) {
+//             this.birthYear = new Date().getFullYear() - value;
+//         }
+//     },
+// };
+
+// console.log(person.age);
+
+// person.age = 50;
+// console.log(person.birthYear);
+
+// person.age = 160; // does not allow this value
+// console.log(person.birthYear);
+
+// ****************************************************************
+
+const hotel = {
+    brand: "Hotel Clarusway",
+    categories: ["Spa", "Swimming Pool", "Resort"],
+    options: ["just stay", "free breakfast", "all inclusive"],
+    rooms: ["2-bed", "3-bed", "4-bed"],
+    receptionHours: {
+        mon: {
+            open: 8,
+            close: 22,
+        },
+        fri: {
+            open: 9,
+            close: 21,
+        },
+        sat: {
+            open: 10,
+            close: 20,
+        },
     },
-    get age() {
-        return new Date().getFullYear() - this.birthYear;
-    },
-    set age(value) {
-        if (value > 0 && value < 150) {
-            this.birthYear = new Date().getFullYear() - value;
-        }
+
+    book: function ({ arrival, departure, optionIndex = 0, roomIndex = 0}) {
+    console.log(`${this.rooms [roomIndex]} is booked with ${this .options [optionIndex]} between ${arrival} - ${departure}`);
     },
 };
-
-console.log(person.age);
-
-person.age = 50;
-console.log(person.birthYear);
-
-person.age = 160; // does not allow this value 
-console.log(person.birthYear);
 
