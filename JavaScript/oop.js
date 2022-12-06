@@ -136,31 +136,60 @@
 //  muezza.walk();
 
 
- //  prototypes
-function Pet (name, age) {
-    this.name = name;
-    this.age = age;   
-}
+//                                  prototypes
 
-Pet.prototype.walk = function () {
-    console.log('I am walking');
+// function Pet (name, age) {
+//     this.name = name;
+//     this.age = age;   
+// }
+
+// Pet.prototype.walk = function () {
+//     console.log('I am walking');
+// };
+
+// Pet.prototype.speak = function () {
+//     return 'I like humans';
+// };
+
+// const myPet2 = new Pet('Karabas', 4);
+// console. log (myPet2);
+
+// function Cat (name, age, color) {
+//     this.name = name;
+//     this.age = age;
+//     this.color = color;
+// }
+
+// Cat.prototype = Object.create (Pet.prototype); // binding Cat -- Pet
+
+// const pisi = new Cat('Pisi', 1, 'yellow');
+// console.log (pisi);
+// pisi.walk();
+
+
+//                               Getter and Setter
+
+const person = {
+    firstName: "Alperen",
+    birthYear: 1982,
+    location: {
+        city: "London",
+    },
+    get age() {
+        return new Date().getFullYear() - this.birthYear;
+    },
+    set age(value) {
+        if (value > 0 && value < 150) {
+            this.birthYear = new Date().getFullYear() - value;
+        }
+    },
 };
 
-Pet.prototype.speak = function () {
-    return 'I like humans';
-};
+console.log(person.age);
 
-const myPet2 = new Pet('Karabas', 4);
-console. log (myPet2);
+person.age = 50;
+console.log(person.birthYear);
 
-function Cat (name, age, color) {
-    this.name = name;
-    this.age = age;
-    this.color = color;
-}
+person.age = 160; // does not allow this value 
+console.log(person.birthYear);
 
-Cat.prototype = Object.create (Pet.prototype); // binding Cat -- Pet
-
-const pisi = new Cat('Pisi', 1, 'yellow');
-console.log (pisi);
-pisi.walk();
