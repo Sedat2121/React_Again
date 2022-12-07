@@ -285,9 +285,30 @@
 
 // default Parameyers 
 
-function greet(user = "Guest") {
-    console.log(`Hello ${user}`);
-}
+// function greet(user = "Guest") {
+//     console.log(`Hello ${user}`);
+// }
 
-greet("Alperen");
-greet();
+// greet("Alperen");
+// greet();
+
+
+//                                                Spread Operator
+// let hotel;
+// let newHotel = { ...hotel };
+
+// newHotel.brand = 'Hotel California';
+
+// console.log ('hotel.brand :> ', hotel.brand);
+// console.log ('newHotel.brand :> ', newHotel.brand);
+
+const arr1 = [1, 2, 31];
+const arr2 = [4, 5, 6];
+const arr3 = [... arr1, 11, ...arr2, 7, 8, 9];
+console.log("array 1 was :: => ", arr1)
+console.log("array 3:: => ", arr3)
+
+const arr4 = arr1;
+arr4.push(7);
+console.log("array 4:: => ", arr4);
+console.log("array 1:: => ", arr1);
