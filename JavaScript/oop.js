@@ -216,7 +216,6 @@ const hotel = {
 
 //                                                     Destructuring
 
-hotel.reservation('11:00', '23:00", 0, 0);
 
 // const { brand, options } = hotel;
 
@@ -232,3 +231,16 @@ hotel.reservation('11:00', '23:00", 0, 0);
 
 // const openingFriday1 = hotel.receptionHours.fri.open;
 // const closingFriday1 = hotel.receptionHours.fri.close;
+
+
+hotel.reservation("11:00", "23:00", 0, 0);
+
+// above and below codes executes the same output
+
+hotel.book({  // this code is much better in term of readability
+    roomIndex: 0,
+    departure: "22:30",
+    optionIndex: 1,
+    arrival: "09:30",
+});
+
