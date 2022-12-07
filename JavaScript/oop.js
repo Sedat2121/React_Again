@@ -185,36 +185,36 @@
 
 // ****************************************************************
 
-const hotel = {
-    brand: "Hotel Clarusway",
-    categories: ["Spa", "Swimming Pool", "Resort"],
-    options: ["just stay", "free breakfast", "all inclusive"],
-    rooms: ["2-bed", "3-bed", "4-bed"],
-    receptionHours: {
-        mon: {
-            open: 8,
-            close: 22,
-        },
-        fri: {
-            open: 9,
-            close: 21,
-        },
-        sat: {
-            open: 10,
-            close: 20,
-        },
-    },
+// const hotel = {
+//     brand: "Hotel Clarusway",
+//     categories: ["Spa", "Swimming Pool", "Resort"],
+//     options: ["just stay", "free breakfast", "all inclusive"],
+//     rooms: ["2-bed", "3-bed", "4-bed"],
+//     receptionHours: {
+//         mon: {
+//             open: 8,
+//             close: 22,
+//         },
+//         fri: {
+//             open: 9,
+//             close: 21,
+//         },
+//         sat: {
+//             open: 10,
+//             close: 20,
+//         },
+//     },
 
-    reservation(arrival, departure, optionIndex = 0, roomIndex = 0) {
-        console.log(`${this.rooms [roomIndex]} is booked with ${this.options [optionIndex]} between ${arrival}-${departure}`);
-    },
+//     reservation(arrival, departure, optionIndex = 0, roomIndex = 0) {
+//         console.log(`${this.rooms [roomIndex]} is booked with ${this.options [optionIndex]} between ${arrival}-${departure}`);
+//     },
 
-    book: function ({ arrival, departure, optionIndex = 0, roomIndex = 0}) {
-    console.log(`${this.rooms [roomIndex]} is booked with ${this .options [optionIndex]} between ${arrival} - ${departure}`);
-    },
-};
+//     book: function ({ arrival, departure, optionIndex = 0, roomIndex = 0}) {
+//     console.log(`${this.rooms [roomIndex]} is booked with ${this .options [optionIndex]} between ${arrival} - ${departure}`);
+//     },
+// };
 
-//                                                     Destructuring
+//                                       Object Destructuring
 
 
 // const { brand, options } = hotel;
@@ -233,14 +233,44 @@ const hotel = {
 // const closingFriday1 = hotel.receptionHours.fri.close;
 
 
-hotel.reservation("11:00", "23:00", 0, 0);
+// hotel.reservation("11:00", "23:00", 0, 0);
 
-// above and below codes executes the same output
+// // above and below codes executes the same output
 
-hotel.book({  // this code is much better in term of readability
-    roomIndex: 0,
-    departure: "22:30",
-    optionIndex: 1,
-    arrival: "09:30",
-});
+// hotel.book({  // this code is much better in term of readability
+//     roomIndex: 0,
+//     departure: "22:30",
+//     optionIndex: 1,
+//     arrival: "09:30",
+// });
+
+
+//                                            Array Destructuring
+
+// const date = [1970, 4, 20];
+
+// // traditional way
+
+// const year = date [0];
+// const month = date [1];
+// const day = date [2];
+
+// const [Year, Month, Day] = date;
+// console. log (Day, Month, Year);
+
+// const [year2, , day2] = date;
+// console.log("year2 :» ", year2);
+// console.log("day2 :»> ", day2);
+
+const nestedArray = [1, 2, 3, [4, 5, 6], 7];
+
+const [first, , third, [forth, fifth], seventh] = nestedArray;
+console.log('fifth :»', fifth);
+console.log(nestedArray [3][2]);
+
+const note = {
+    id: 1,
+    title: 'My first note', 
+    date: '25/04/1977',
+};
 
