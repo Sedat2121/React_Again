@@ -293,7 +293,7 @@
 // greet();
 
 
-//                                                Spread Operator
+//                                                    Spread Operator
 // let hotel;
 // let newHotel = { ...hotel };
 
@@ -302,13 +302,29 @@
 // console.log ('hotel.brand :> ', hotel.brand);
 // console.log ('newHotel.brand :> ', newHotel.brand);
 
-const arr1 = [1, 2, 31];
-const arr2 = [4, 5, 6];
-const arr3 = [... arr1, 11, ...arr2, 7, 8, 9];
-console.log("array 1 was :: => ", arr1)
-console.log("array 3:: => ", arr3)
+// const arr1 = [1, 2, 31];
+// const arr2 = [4, 5, 6];
+// const arr3 = [... arr1, 11, ...arr2, 7, 8, 9];
+// console.log("array 1 was :: => ", arr1)
+// console.log("array 3:: => ", arr3)
 
-const arr4 = arr1;
-arr4.push(7);
-console.log("array 4:: => ", arr4);
-console.log("array 1:: => ", arr1);
+// const arr4 = arr1;
+// arr4.push(7);
+// console.log("array 4:: => ", arr4);
+// console.log("array 1:: => ", arr1);
+
+
+
+//                                                       Rest Operator 
+
+function sum(...numbers) {
+    let total = 0;
+    numbers.forEach((i) => {
+        total = !isNaN(i) ? total + i : total;
+    });
+    return total;
+}
+
+// console.log(sum(2, 4, 8, 12, 34, 78));
+
+console.log(sum(2, 4, 8, "string", 12, 34, 78));
