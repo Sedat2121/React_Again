@@ -262,11 +262,11 @@
 // console.log("year2 :» ", year2);
 // console.log("day2 :»> ", day2);
 
-const nestedArray = [1, 2, 3, [4, 5, 6], 7];
+// const nestedArray = [1, 2, 3, [4, 5, 6], 7];
 
-const [first, , third, [forth, fifth], seventh] = nestedArray;
-console.log('fifth :»', fifth);
-console.log(nestedArray [3][2]);
+// const [first, , third, [forth, fifth], seventh] = nestedArray;
+// console.log('fifth :»', fifth);
+// console.log(nestedArray [3][2]);
 
 const note = {
     id: 1,
@@ -274,3 +274,6 @@ const note = {
     date: '25/04/1977',
 };
 
+for (let [key, value] of Object.entries(note)) {
+    console.log(key, "::->", value);
+}
