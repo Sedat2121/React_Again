@@ -205,8 +205,30 @@ const hotel = {
         },
     },
 
+    reservation(arrival, departure, optionIndex = 0, roomIndex = 0) {
+        console.log(`${this.rooms [roomIndex]} is booked with ${this.options [optionIndex]} between ${arrival}-${departure}`);
+    },
+
     book: function ({ arrival, departure, optionIndex = 0, roomIndex = 0}) {
     console.log(`${this.rooms [roomIndex]} is booked with ${this .options [optionIndex]} between ${arrival} - ${departure}`);
     },
 };
 
+//                                                     Destructuring
+
+hotel.reservation('11:00', '23:00", 0, 0);
+
+// const { brand, options } = hotel;
+
+// console.log(brand);
+// console.log(options);
+// console.log(options[1]);
+
+// const { brand: hotelName, rooms: roomTypes } = hotel;
+// console.log("hotel name is", hotelName);
+
+// const { receptionHours: { mon: Monday }, }= hotel;
+// console.log(Monday);
+
+// const openingFriday1 = hotel.receptionHours.fri.open;
+// const closingFriday1 = hotel.receptionHours.fri.close;
