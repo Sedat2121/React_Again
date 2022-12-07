@@ -268,12 +268,26 @@
 // console.log('fifth :»', fifth);
 // console.log(nestedArray [3][2]);
 
-const note = {
-    id: 1,
-    title: 'My first note', 
-    date: '25/04/1977',
-};
+// const note = {
+//     id: 1,
+//     title: 'My first note', 
+//     date: '25/04/1977',
+// };
 
-for (let [key, value] of Object.entries(note)) {
-    console.log(key, "::->", value);
+// for (let [key, value] of Object.entries(note)) {
+//     console.log(key, "::->", value);
+// }
+
+// Object.entries(note).forEach(([key, value]) => {
+//     console.log(key, "::->", value);
+// });
+
+
+// default Parameyers 
+
+function greet(user = "Guest") {
+    console.log(`Hello ${user}`);
 }
+
+greet("Alperen");
+greet();
