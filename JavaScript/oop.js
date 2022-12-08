@@ -315,16 +315,27 @@
 
 
 
-//                                                       Rest Operator 
+//                                                  Rest Operator 
 
-function sum(...numbers) {
-    let total = 0;
-    numbers.forEach((i) => {
-        total = !isNaN(i) ? total + i : total;
-    });
-    return total;
-}
+// function sum(...numbers) {
+//     let total = 0;
+//     numbers.forEach((i) => {
+//         total = !isNaN(i) ? total + i : total;
+//     });
+//     return total;
+// }
 
-// console.log(sum(2, 4, 8, 12, 34, 78));
+// // console.log(sum(2, 4, 8, 12, 34, 78));
 
-console.log(sum(2, 4, 8, "string", 12, 34, 78));
+// console.log(sum(2, 4, 8, "string", 12, 34, 78));
+
+
+
+//                                                  Nullish Operator
+
+let temp = 0;
+console.log(`Temperature is ${temp} degrees Celsius`);
+
+
+let tempStatus = `Temperature is ${temp ?? "Error"}`;
+console.log(tempStatus);
