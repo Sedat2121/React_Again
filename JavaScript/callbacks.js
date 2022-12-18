@@ -64,8 +64,19 @@
 // });
 
 
-//? MAP 
-const numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
-const doubled = numbers.map((n) => n * 2);
-console.log(doubled, numbers);
+//? MAP 
+
+// const numbers = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+
+// const doubled = numbers.map((n) => n * 2);
+// console.log(doubled, numbers);
+
+// example
+let grades = [30, 40, 50, 60, 70, 80, 90, 20];
+
+grades = grades.map((grade) => (grade > 50 ? grade * 1.1 : grade * 1.2));
+
+console.log(grades);
+
+ 
