@@ -108,6 +108,14 @@
 
 
 // Filter
-const words = ["mum", "kek", "isi", "iyi", "gel"];
-const checkPalindrome = words.filter((word) => [...word].reverse().join('') === word);
-console.log(checkPalindrome);
+// const words = ["mum", "kek", "isi", "iyi", "gel"];
+// const checkPalindrome = words.filter((word) => [...word].reverse().join('') === word);
+// console.log(checkPalindrome);
+
+
+// Reduce
+
+const salaries = [-100, 150, -50, 300, -90, 80];
+
+const avgSalaries = salaries.reduce((acc, salary) => acc + salary, 0)  //   / salaries.length; to find the average 
+console.log(avgSalaries);
