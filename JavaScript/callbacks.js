@@ -92,16 +92,22 @@
 
 // Palindromic Example
 
-const words = ["mum", "kek", "isi", "iyi", "gel"];
+//const words = ["mum", "kek", "isi", "iyi", "gel"];
 // const checkPalindrome = words.map((word) => [...word].reverse().join('') === word);
 // console.log(checkPalindrome);
 
 // An alternative solution
-const checkPalindrome = words.map((w) => {
-    const reverse = w.split("").reverse().join("");
-    if (reverse == w) {
-        return w; // console.log(w);
-    }
-});
+// const checkPalindrome = words.map((w) => {
+//     const reverse = w.split("").reverse().join("");
+//     if (reverse == w) {
+//         return w; // console.log(w);
+//     }
+// });
 
+// console.log(checkPalindrome);
+
+
+// Filter
+const words = ["mum", "kek", "isi", "iyi", "gel"];
+const checkPalindrome = words.filter((word) => [...word].reverse().join('') === word);
 console.log(checkPalindrome);
