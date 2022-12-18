@@ -115,7 +115,11 @@
 
 // Reduce
 
-const salaries = [-100, 150, -50, 300, -90, 80];
+// const salaries = [-100, 150, -50, 300, -90, 80];
 
-const avgSalaries = salaries.reduce((acc, salary) => acc + salary, 0)  //   / salaries.length; to find the average 
-console.log(avgSalaries);
+// const avgSalaries = salaries.reduce((acc, salary) => acc + salary, 0)  //   / salaries.length; to find the average 
+// console.log(avgSalaries);
+
+
+// Nested Array Iterations
+
