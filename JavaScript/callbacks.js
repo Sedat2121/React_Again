@@ -73,10 +73,35 @@
 // console.log(doubled, numbers);
 
 // example
-let grades = [30, 40, 50, 60, 70, 80, 90, 20];
+// let grades = [30, 40, 50, 60, 70, 80, 90, 20];
 
-grades = grades.map((grade) => (grade > 50 ? grade * 1.1 : grade * 1.2));
+// grades = grades.map((grade) => (grade > 50 ? grade * 1.1 : grade * 1.2).toFixed(2));
 
-console.log(grades);
+// console.log(grades);
 
  
+// Modified Example
+// let grades = [30, 40, 50, 60, 70, 80, 90, 20];
+
+// grades = grades.map((grade, index) => {
+//     const newGrade = (grade > 50 ? grade * 1.1 : grade * 1.2).toFixed(2)
+//     return `${index + 1}. Student's Grade: ${newGrade}`;
+// });
+
+// console.log(grades);
+
+// Palindromic Example
+
+const words = ["mum", "kek", "isi", "iyi", "gel"];
+// const checkPalindrome = words.map((word) => [...word].reverse().join('') === word);
+// console.log(checkPalindrome);
+
+// An alternative solution
+const checkPalindrome = words.map((w) => {
+    const reverse = w.split("").reverse().join("");
+    if (reverse == w) {
+        return w; // console.log(w);
+    }
+});
+
+console.log(checkPalindrome);
