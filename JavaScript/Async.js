@@ -41,17 +41,37 @@
 
 
 // setTimeout Example -----------------------------------------------------
-setTimeout(() => {
-    console.log("John: Hi");
-    setTimeout(() => {
-        console.log("Sarah: Hello");
-        setTimeout(() => {
-            console.log("John: How are you doing?");
-            setTimeout(() => {
-                console.log("Sarah: Fine, What about you?");
-            }, 1000);
-        }, 1000);
-    }, 1000);
-}, 1000); 
+// setTimeout(() => {    // Nested callback functions
+//     console.log("John: Hi");
+//     setTimeout(() => {
+//         console.warn("Sarah: Hello");
+//         setTimeout(() => {
+//             console.log("John: How are you doing?");
+//             setTimeout(() => {
+//                 console.warn("Sarah: Fine, What about you?");
+//             }, 1000);
+//         }, 1000);
+//     }, 1000);
+// }, 1000); 
 // --------------------------------------------------------------------------
+
+
+//  SetInterval  --------------------------------------------------------------
+// function hello() {
+//     console.log("Hello world");
+// }
+
+// setInterval(hello, 2000);
+
+// SetInterval Example ------------------------------------------------------
+// let count = 0; 
+// let interval = setInterval(function() {
+//     count +=1;
+//     if (count === 5) {
+//         clearInterval(interval);
+//     }
+//     let dateTime = new Date();
+//     let time = dateTime.toLocaleTimeString();
+//     console.log(time);
+// }, 2000);
 
