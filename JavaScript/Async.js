@@ -75,3 +75,15 @@
 //     console.log(time);
 // }, 2000);
 
+// Promises ------------------------------------------------------------------------------
+
+const promise = new Promise((resolve, reject) => {
+    // some calculations
+    const data = "some results";
+    const success = true;
+    if (success) {
+        resolve(data);
+    }
+    reject(new Error("an error occurred"));
+})
+
