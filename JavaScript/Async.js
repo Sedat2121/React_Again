@@ -77,13 +77,42 @@
 
 // Promises ------------------------------------------------------------------------------
 
+// const promise = new Promise((resolve, reject) => {
+//     // some calculations
+//     const data = "some results";
+//     const success = true;
+//     if (success) {
+//         resolve(data);
+//     }
+//     reject(new Error("an error occurred"));
+// })
+
+// Promise Example  -----------------------
 const promise = new Promise((resolve, reject) => {
     // some calculations
-    const data = "some results";
-    const success = true;
-    if (success) {
-        resolve(data);
-    }
+    wait(2000);
+    const userData = {
+        firstName: "Alperen",
+        birthYear: 2021,
+    };
+    let successful = Math.floor(Math.random() * 2);
+    if (successful) resolve(userData);
     reject(new Error("an error occurred"));
-})
+});
 
+promise.then(                      // this is one way of using promise.then()
+    (result) => {
+        console.log(result);
+    },
+    (error) => {
+        console.log(error);
+    }
+);
+
+promise                                   // this way is better to use "promise.then"
+    .then((result) => {
+        console.log(result);
+    })
+    .catch((error) => {
+        console.log(error);
+    });
