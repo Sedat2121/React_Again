@@ -120,3 +120,23 @@
 
 
 // Async Await ----------------------------------------------------------------
+
+const prom = new Promise ((resolve, reject) => {
+    wait (2000);
+    // console. log ('Promise is created');
+    resolve ('Promise is resolved');
+});
+
+const func1 = async () =>  {
+    wait(2000);
+    return 'Async function is resolved';
+}
+
+async function func2() {            //  when we add the word "async" in the beginning of the function, it becomes a promise.
+    wait();
+    return 'bla bla';
+}
+
+console.log ('prom instanceof Promise :>> ' , prom instanceof Promise);
+console. log ('func1 instanceof Promise :>>  ', func1() instanceof Promise);
+console. log ('func2 instanceof Promise :>> ' , func2() instanceof Promise);
