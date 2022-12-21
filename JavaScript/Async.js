@@ -144,13 +144,34 @@
 
 // FETCH  ------------------------------------------------------------------------------------
 
+// const url = 'https: // jsonplaceholder.typicode.com/users/8';
+
+// fetch(url)
+//     .then ((response) =>  {
+//     // console. log (response);
+//     return response. json();
+//     });
+//     then ((data) => {
+//     console. log (data);
+//     });
+
+
+// Fetch Example
 const url = 'https: // jsonplaceholder.typicode.com/users/8';
 
-fetch(url)
-    .then ((response) =>  {
-    // console. log (response);
-    return response. json();
-    });
-    then ((data) => {
-    console. log (data);
-    });
+function usingFetch (url) {
+    fetch(url)
+        .then ((res) => {
+            console.log (res);
+            if (res.status !== 200) {
+                throw new Error ('Something went wrong!');
+            }
+            res.json();
+        })
+        .then ((data) => { 
+            // console. Log('user »', data);
+        })
+        .catch((err) => console.error('ERROR >>', err));
+}
+
+usingFetch(url);
