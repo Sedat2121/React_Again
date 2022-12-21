@@ -133,7 +133,7 @@ const func1 = async () =>  {
 }
 
 async function func2() {            //  when we add the word "async" in the beginning of the function, it becomes a promise.
-    wait();
+    wait(1000);
     return 'bla bla';
 }
 
