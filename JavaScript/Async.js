@@ -157,21 +157,23 @@
 
 
 // Fetch Example
-const url = 'https: // jsonplaceholder.typicode.com/users/8';
+// const url = 'https: // jsonplaceholder.typicode.com/users/8';
 
-function usingFetch (url) {
-    fetch(url)
-        .then ((res) => {
-            console.log (res);
-            if (res.status !== 200) {
-                throw new Error ('Something went wrong!');
-            }
-            res.json();
-        })
-        .then ((data) => { 
-            // console. Log('user »', data);
-        })
-        .catch((err) => console.error('ERROR >>', err));
-}
+// function usingFetch (url) {
+//     fetch(url)
+//         .then ((res) => {
+//             console.log (res);
+//             if (res.status !== 200) {
+//                 throw new Error ('Something went wrong!');
+//             }
+//             res.json();
+//         })
+//         .then ((data) => { 
+//             // console. Log('user »', data);
+//         })
+//         .catch((err) => console.error('ERROR >>', err));
+// }
 
-usingFetch(url);
+// usingFetch(url);
+
+
