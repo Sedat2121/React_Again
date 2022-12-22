@@ -177,3 +177,14 @@
 // usingFetch(url);
 
 
+// Fetch with JSON
+
+fetch( 'https: //restcountries.com/V3.1/name/Turkey')
+    .then ((response) => { 
+        console.log (response);
+        return response. json();
+    })
+    .then ((data) => { 
+        console. log (data);
+        console. log (data[0] capital, data[0].name. common);
+    });
