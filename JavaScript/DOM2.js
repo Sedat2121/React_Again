@@ -10,7 +10,7 @@ getElementsByTagName() -
 querySelector() -
 querySelectorAll();
 
-
+// Examples
 let element = parentNode.querySelector(selector);
 
 let elementList = parentNode.querySelectorAll(selector);
@@ -25,3 +25,11 @@ let content = document.getElementById('menu');
 let firstChild = content.firstChild.nodeName;
 
 console.log(firstChild);
+
+// Examples2
+let content2 = document.getElementById('menu2');
+console.log(content.firstElementChild);
+
+let div = document.createElement('div');
+div.innerHTML = '<p>CreateElement example</p>';
+document.body.appendChild(div);
