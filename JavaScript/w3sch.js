@@ -14,4 +14,37 @@ function reverse(n) {
 }
 console.log(reverse(123789));
 
-// 
+// 2. Write a JavaScript function that checks whether a passed string is palindrome or not?
+function isPalindrome(str_entry) {
+    // Change the string into lower case and remove  all non-alphanumeric characters
+    const cstr = str_entry.toLowerCase().replace(/[^a-zA-Z0-9]+/g,'');
+    let ccount = 0;
+    if(cstr === ""){
+        console.log("Nothing found!")
+        return false;
+    }
+    // Check if the length of the string is even or odd 
+    if((cstr.length) % 2 === 0) {
+        ccount = (cstr.length) / 2;
+    } else {
+        if(cstr.length === 1){
+            console.log("Entry ia a palindrome");
+            return true;
+        } else {
+            ccount = (cstr.length - 1) / 2;
+        }
+    }
+    // Loop through to check the first character to the last character and then move next
+    for(let x = 0; x < ccount; x++) {
+        if(cstr[x] != cstr.slice(-1-x)[0]) {
+            console.log("Entry is not a palindrome");
+            return false;
+        }
+    }
+    console.log("The entry is a palindrome")
+    return true;
+}
+isPalindrome("");
+isPalindrome("none");
+isPalindrome("true");
+isPalindrome("nurses run");
