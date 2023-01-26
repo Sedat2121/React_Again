@@ -73,3 +73,9 @@ function substrings(str1) {
     console.log(combi.join("\n"));
 }
 substrings("dog");
+
+// Write a JavaScript function that returns a passed string with letters in alphabetical order
+function order(str) {
+    return str.split('').sort().join('');
+}
+console.log(order("alperen"));
