@@ -5,5 +5,13 @@
 // 'The first paragraph (index 0) with class="intro" is: ' + x[0].innerHTML;
 
 
-// Finding HTML Elements by HTML Object Collections
+// JavaScript functions
 
+// 1. Write a JavaScript function that reverse a number
+function reverse(n) {
+    n = n + "";
+    return n.split("").reverse().join("");
+}
+console.log(reverse(123789));
+
+// 
