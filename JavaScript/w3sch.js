@@ -74,8 +74,22 @@ function substrings(str1) {
 }
 substrings("dog");
 
-// Write a JavaScript function that returns a passed string with letters in alphabetical order
+// 4. Write a JavaScript function that returns a passed string with letters in alphabetical order
 function order(str) {
     return str.split('').sort().join('');
 }
 console.log(order("alperen"));
+
+// 5. Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case
+function upper(str) {
+    let array = str.split(' ');
+    let newarray = [];
+
+    for(let i = 0; i < array.length; i++) {
+        newarray.push(array[i].charAt(0).toUpperCase()+array[i].slice(1));
+    }
+    return newarray.join(' ');
+}
+console.log(upper("the quick brown fox"));
+
+// 
