@@ -10,15 +10,15 @@ console.log(reverse(123789));
 // 2. Write a JavaScript function that checks whether a passed string is palindrome or not?
 function isPalindrome(str_entry) {
     // Change the string into lower case and remove  all non-alphanumeric characters
-    const cstr = str_entry.toLowerCase().replace(/[^a-zA-Z0-9]+/g, '');
+    const cstr = str_entry.toLowerCase().replace(/[^a-zA-Z0-9]+/g, "");
     let ccount = 0;
     if (cstr === "") {
-        console.log("Nothing found!")
+        console.log("Nothing found!");
         return false;
     }
-    // Check if the length of the string is even or odd 
-    if ((cstr.length) % 2 === 0) {
-        ccount = (cstr.length) / 2;
+    // Check if the length of the string is even or odd
+    if (cstr.length % 2 === 0) {
+        ccount = cstr.length / 2;
     } else {
         if (cstr.length === 1) {
             console.log("Entry ia a palindrome");
@@ -34,7 +34,7 @@ function isPalindrome(str_entry) {
             return false;
         }
     }
-    console.log("The entry is a palindrome")
+    console.log("The entry is a palindrome");
     return true;
 }
 isPalindrome("");
@@ -69,19 +69,19 @@ substrings("dog");
 
 // 4. Write a JavaScript function that returns a passed string with letters in alphabetical order
 function order(str) {
-    return str.split('').sort().join('');
+    return str.split("").sort().join("");
 }
 console.log(order("alperen"));
 
 // 5. Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case
 function upper(str) {
-    let array = str.split(' ');
+    let array = str.split(" ");
     let newarray = [];
 
     for (let i = 0; i < array.length; i++) {
         newarray.push(array[i].charAt(0).toUpperCase() + array[i].slice(1));
     }
-    return newarray.join(' ');
+    return newarray.join(" ");
 }
 console.log(upper("the quick brown fox"));
 
@@ -101,7 +101,7 @@ console.log(longest("front end web developer"));
 
 // 7. Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string
 function vowel_count(str1) {
-    const vowel_list = 'aeiouAEIOU';
+    const vowel_list = "aeiouAEIOU";
     let vcount = 0;
 
     for (let x = 0; x < str1.length; x++) {
@@ -115,13 +115,13 @@ console.log(vowel_count("The quick brown fox"));
 
 // 8.  Write a JavaScript function that accepts a number as a parameter and check the number is prime or not
 function isPrime(n) {
-    if(n ===1){
+    if (n === 1) {
         return false;
-    } else if(n === 2){
+    } else if (n === 2) {
         return true;
-    }else {
-        for(let x=2; x<n; x++) {
-            if(n%x === 0) {
+    } else {
+        for (let x = 2; x < n; x++) {
+            if (n % x === 0) {
                 return false;
             }
         }
@@ -132,3 +132,19 @@ console.log(isPrime(11));
 console.log(isPrime(18));
 console.log(isPrime(37));
 
+// 9. Write a JavaScript function which accepts an argument and returns the type
+function detect_data_type(value) {
+    var dtypes = [Function, RegExp, Number, String, Boolean, Object],
+        x,
+        len;
+
+    if (typeof value === "object" || typeof value === "function") {
+        for (x = 0, len = dtypes.length; x < len; x++) {
+            if (value instanceof dtypes[x]) {
+                return dtypes[x];
+            }
+        }
+    }
+
+    return typeof value;
+}
