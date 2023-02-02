@@ -186,3 +186,21 @@ function Second_Greatest_Lowest(arr_num) {
 }
 
 console.log(Second_Greatest_Lowest([2, 4, 6, 8, 10]));
+
+// 12. Write a JavaScript function which says whether a number is perfect
+function is_perfect(number) {
+    var temp = 0;
+    for (var i = 1; i <= number / 2; i++) {
+        if (number % i === 0) {
+            temp += i;
+        }
+    }
+
+    if (temp === number && temp !== 0) {
+        console.log("It is a perfect number.");
+    }
+    else {
+        console.log("It is not a perfect number.");
+    }
+}
+console.log(is_perfect(28)); 
