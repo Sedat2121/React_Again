@@ -112,3 +112,23 @@ function vowel_count(str1) {
     return vcount;
 }
 console.log(vowel_count("The quick brown fox"));
+
+// 8.  Write a JavaScript function that accepts a number as a parameter and check the number is prime or not
+function isPrime(n) {
+    if(n ===1){
+        return false;
+    } else if(n === 2){
+        return true;
+    }else {
+        for(let x=2; x<n; x++) {
+            if(n%x === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+console.log(isPrime(11));
+console.log(isPrime(18));
+console.log(isPrime(37));
+
