@@ -239,19 +239,31 @@ function amountTocoins(amount, coins) {
             return amountTocoins(amount, coins);
         }
     }
-} 
-console.log(amountTocoins(86, [25, 10, 5, 2,1]));
+}
+console.log(amountTocoins(86, [25, 10, 5, 2, 1]));
 
 // 15. Write a JavaScript function to compute the value of bn where n is the exponent and b is the bases. Accept b and n from the user and display the result
-function exp(b,n)
-{
-        var ans = 1;
-        for (var i =1; i <= n; i++)
-        {
-                ans = b * ans;        
-        }
-        return ans;
+function exp(b, n) {
+    var ans = 1;
+    for (var i = 1; i <= n; i++) {
+        ans = b * ans;
+    }
+    return ans;
 }
 console.log(exp(2, 3));
 
-// 
+// 16. Write a JavaScript function to extract unique characters from a string
+function unique_char(str1) {
+    var str = str1;
+    var uniql = "";
+    for (var x = 0; x < str.length; x++) {
+
+        if (uniql.indexOf(str.charAt(x)) == -1) {
+            uniql += str[x];
+
+        }
+    }
+    return uniql;
+}
+console.log(unique_char("thequickbrownfoxjumpsoverthelazydogcatvimpar"));
+
