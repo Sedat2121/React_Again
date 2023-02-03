@@ -200,7 +200,7 @@
 
 // (async () => {
 //     console.log('» index.js is running');
-  
+
 //     function wait(ms) {
 //       const start = new Date().getTime();
 //       let end = start;
@@ -208,11 +208,11 @@
 //         end = new Date().getTime();
 //       }
 //     }
-  
+
 //     // *=====================================================
 //     // *                   PROMISES
 //     // *=====================================================
-  
+
 //     const promise = new Promise((resolve, reject) => {
 //       // some calculation
 //       wait(2000);
@@ -225,7 +225,7 @@
 //       resolve(userData);
 //       reject(new Error('Something went wrong!'));
 //     });
-  
+
 //     // promise.then(
 //     //   (result) => {
 //     //     console.log(result);
@@ -234,7 +234,7 @@
 //     //     console.log(error);
 //     //   }
 //     // );
-  
+
 //     /* promise
 //     .then((res) => {
 //       console.log(res);
@@ -246,7 +246,7 @@
 //     .catch((error) => {
 //       console.log(error);
 //     }); */
-  
+
 //     const cayDemle = () => {
 //       // suyuKaynat(); ->  cayEkle(); ->  bekle(); ->  afiyet();
 //       suyuKaynat()
@@ -266,7 +266,7 @@
 //           console.error(err);
 //         });
 //     };
-  
+
 //     const suyuKaynat = () => {
 //       return new Promise((resolve, reject) => {
 //         const nasip = Math.floor(Math.random() * 5);
@@ -277,7 +277,7 @@
 //         reject(new Error('❌ Kettle arizali'));
 //       });
 //     };
-  
+
 //     const cayEkle = () => {
 //       return new Promise((resolve, reject) => {
 //         const cayNasibi = Math.floor(Math.random() * 10);
@@ -288,49 +288,49 @@
 //         reject('❌ Cay bitmis');
 //       });
 //     };
-  
+
 //     const bekle = (ms) => {
 //       const start = new Date().getTime();
 //       while (new Date().getTime() < start + ms);
 //     };
-  
+
 //     const afiyet = (m) => {
 //       return '🫖 Cay hazir afiyet olsun';
 //     };
-  
+
 //     // cayDemle();
-  
+
 //     // *=====================================================
 //     // *                   ASYNC AWAIT
 //     // *=====================================================
-  
+
 //     const prom = new Promise((resolve, reject) => {
 //       // console.log('Promise is created');
 //       resolve('Promise is resolved');
 //     });
-  
+
 //     const func1 = async () => {
 //       return 'Async function is resolved';
 //     };
-  
+
 //     async function func2() {
 //       wait(1000);
 //       return 'bla bla';
 //     }
-  
+
 //     // console.log('prom instanceof Promise :>> ', prom instanceof Promise);
 //     // console.log('func1() instanceof Promise :>> ', func1() instanceof Promise);
-  
+
 //     // console.log(func2());
-  
+
 //     // async function func3() {
 //     //   wait();
 //     //   throw new Error('something went wrong');
 //     //   // return Promise.reject(new Error('errror'));
 //     // }
-  
+
 //     // func3();
-  
+
 //     const cayDemle2 = async () => {
 //       try {
 //         const durum1 = await suyuKaynat();
@@ -344,17 +344,17 @@
 //         console.error(error);
 //       }
 //     };
-  
+
 //     // cayDemle2();
-  
+
 //     // *-----------------------------------------------------
 //     // *                       FETCH
 //     // *-----------------------------------------------------
-  
+
 //     /*
 //   GET https://jsonplaceholder.typicode.com/users/8
 //   */
-  
+
 //     /* fetch(url)
 //   .then((response) => {
 //     // console.log(response);
@@ -364,9 +364,9 @@
 //     console.log(data);
 //   });
 //   */
-  
+
 //     const url = 'https://jsonplaceholder.typicode.com/users/8';
-  
+
 //     function usingFetch(url) {
 //       fetch(url)
 //         .then((res) => {
@@ -382,9 +382,9 @@
 //         })
 //         .catch((err) => console.error('ERROR »', err));
 //     }
-  
+
 //     // usingFetch(url);
-  
+
 //     async function usingAsyncFetch(url) {
 //       try {
 //         // ...
@@ -401,9 +401,9 @@
 //         console.error(err);
 //       }
 //     }
-  
+
 //     // usingAsyncFetch(url);
-  
+
 //     async function usingAsyncFetch2(url) {
 //       try {
 //         const res = await fetch(url);
@@ -415,7 +415,7 @@
 //         console.error(err);
 //       }
 //     }
-  
+
 //     usingAsyncFetch2(url).then((d) => {
 //       console.log(d);
 //     });
@@ -425,12 +425,12 @@
 //       const sonuc = await usingAsyncFetch2(url);
 //       console.log(sonuc);
 //     };
-  
+
 //     f1();
-  
+
 //     const sonuc = await usingAsyncFetch2(url);
 //     console.log(sonuc);
-  
+
 //     // -----------
 //     // tüm dosya
 //     const url2 = 'https://jsonplaceholder.typicode.com/todos';

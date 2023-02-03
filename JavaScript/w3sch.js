@@ -241,3 +241,4 @@ function amountTocoins(amount, coins) {
     }
 } 
 console.log(amountTocoins(86, [25, 10, 5, 2,1]));
+
