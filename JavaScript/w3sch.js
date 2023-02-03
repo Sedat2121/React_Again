@@ -270,8 +270,38 @@ console.log(unique_char("thequickbrownfoxjumpsoverthelazydogcatvimpar"));
 // 17. Write a JavaScript function to  get the number of occurrences of each letter in specified string
 function Char_Counts(str1) {
     var uchars = {};
-    str1.replace(/\S/g, function(l){uchars[l] = (isNaN(uchars[l]) ? 1 : uchars[l] + 1);});
+    str1.replace(/\S/g, function (l) { uchars[l] = (isNaN(uchars[l]) ? 1 : uchars[l] + 1); });
     return uchars;
 }
 console.log(Char_Counts("The quick brown fox jumps over the lazy dog"));
 
+// 18. Write a function for searching JavaScript arrays with a binary search
+function array_binarySearch(narray, delement) {
+    var mposition = Math.floor(narray.length / 2);
+
+    if (narray[mposition] === delement) {
+        return mposition;
+    }
+    else if (narray.length === 1) {
+        return null;
+    }
+    else if (narray[mposition] < delement) {
+        var arr = narray.slice(mposition + 1);
+        var res = array_binarySearch(arr, delement);
+        if (res === null) {
+            return null;
+        }
+        else {
+            return mposition + 1 + res;
+        }
+    }
+    else {
+        var arr1 = narray.slice(0, mposition);
+        return array_binarySearch(arr1, delement);
+    }
+}
+
+var myArray = [1, 2, 3, 5, 6, 7, 10, 11, 14, 15, 17, 19, 20, 22, 23];
+console.log(array_binarySearch(myArray, 6));
+
+// 19. Write a JavaScript function that returns array elements larger than a number
