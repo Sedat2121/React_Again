@@ -85,3 +85,16 @@ var binarySearch = function(array, value) {
 }
 ```
 
+7. What is Linear Search and when may we use one?
+this is the most basic search algorithm. Given a data structure, for example an array, 
+we search for an item by looking at all the elements, until we find it. 
+```
+function linearSearch(array, toFind){
+  for(let i = 0; i < array.length; i++){
+    if(array[i] === toFind) return i;
+  }
+  return -1;
+}
+```
+
+8. 
