@@ -1,6 +1,6 @@
 # fullStack.cafe JavaScript Interview questions
 
-1. What is typeof operator? 
+1. What is typeof operator?
 JavaScript provides a typeof operator that can examine a value and tell you what type it is:
 JS datatypes are: undefined, string, number, boolean, object(object, array, date), null, symbol, bigint. 
 
@@ -23,3 +23,22 @@ obj["b"];	// 42
 obj["c"];	// true
 ```
 Bracket notaion is also useful if you want to access a property/key pair.
+
+3. Explain arrays in JS
+An array is an object that holds values of any type not particelarly in named property/key, but rather in numarically indexed positions: 
+
+```
+var arr = [
+	"hello world",
+	42,
+	true
+];
+
+arr[0];			// "hello world"
+arr[1];			// 42
+arr[2];			// true
+arr.length;		// 3
+
+typeof arr;		// "object" ```
+Arrays are used to store multiple values in a single variable.
+
