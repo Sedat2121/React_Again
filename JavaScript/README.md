@@ -39,6 +39,14 @@ arr[1];			// 42
 arr[2];			// true
 arr.length;		// 3
 
-typeof arr;		// "object" ```
+typeof arr;		// "object" 
+```
 Arrays are used to store multiple values in a single variable.
 
+4. What is Scope in JS?
+There are two pyte of scopes; local and global.
+a scope refers to the current context of code, which determines the accessibility of variables to JS. 
+
+Scope determines the accessiblity of variables, objects ,and functions from different parts of the scope. 
+
+5. 
