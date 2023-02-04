@@ -97,4 +97,7 @@ function linearSearch(array, toFind){
 }
 ```
 
-8. 
+8. Explain Values and Types in JS
+JS has 5 data types that are passed by values: boolean, null, undefined, string, and number. 
+JS has 3 data types that are passed by reference: array, function, and object.
+
