@@ -49,4 +49,15 @@ a scope refers to the current context of code, which determines the accessibilit
 
 Scope determines the accessiblity of variables, objects ,and functions from different parts of the scope. 
 
-5. 
+5. Explain equality in JS
+Strict comparison (===); checks the value equality without allowing coercion
+
+Abstract comparion (==); checks the value equality with allowing coercion
+```
+var a = "42";
+var b = 42;
+
+a == b;			// true
+a === b;		// false
+```
+
