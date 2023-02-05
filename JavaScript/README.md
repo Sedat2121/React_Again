@@ -105,4 +105,11 @@ JS has 3 data types that are passed by reference: array, function, and object.
 Let allows us to declare variables that are limited to the scope of a block statement.
 It is a block declaration method, unlike var which is a global declaration method
 
-10. 
+10. Explain null and undefined in JS
+Null; an empty value and also a primitive type in js. the variable which has been assigned as null contains no value. 
+something is corrently unavaible.
+
+Undefined; means the variable has been declared, but its value has not been assigned. 
+something has not been initialized.
+
+11. 
