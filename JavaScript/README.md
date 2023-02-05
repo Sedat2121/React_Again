@@ -101,3 +101,8 @@ function linearSearch(array, toFind){
 JS has 5 data types that are passed by values: boolean, null, undefined, string, and number. 
 JS has 3 data types that are passed by reference: array, function, and object.
 
+9. What is let keyworld in Js?
+Let allows us to declare variables that are limited to the scope of a block statement.
+It is a block declaration method, unlike var which is a global declaration method
+
+10. 
