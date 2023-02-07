@@ -121,10 +121,17 @@ Strict Mode is a new feature in ECMAScript 5 that allows you to place a program,
   "use strict";
 
   // Define your library strictly...
-  
+
 })();
 
 // Non-strict code...
 ```
 
-11. 
+11. What is a Polyfill? 
+It refers to a JS library that implements an HTML5 or CSS web standard, either an established standard on older browser, or a proposed standard on existing browsers.
+
+A polyfill is essentially the specific code (or plugin) that would allow you to have some specific functionality that you expect in current or “modern” browsers to also work in other browsers that do not have the support for that functionality built in.
+
+Polyfills are not part of the HTML5 standard
+Polyfilling is not limited to Javascript.
+
