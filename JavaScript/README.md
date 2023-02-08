@@ -127,7 +127,7 @@ Strict Mode is a new feature in ECMAScript 5 that allows you to place a program,
 // Non-strict code...
 ```
 
-11. What is a Polyfill? 
+12. What is a Polyfill? 
 It refers to a JS library that implements an HTML5 or CSS web standard, either an established standard on older browser, or a proposed standard on existing browsers.
 
 A polyfill is essentially the specific code (or plugin) that would allow you to have some specific functionality that you expect in current or “modern” browsers to also work in other browsers that do not have the support for that functionality built in.
@@ -135,3 +135,10 @@ A polyfill is essentially the specific code (or plugin) that would allow you to 
 Polyfills are not part of the HTML5 standard
 Polyfilling is not limited to Javascript.
 
+13. Explain event bubbling and how one may prevent it?
+When an element receives an event, and that event bubbles up to its parent and ancestor elements in the DOM tree until it gets to the root element. 
+
+Event bubbling is the concept in which an event triggers at the deepest possible element, and triggers on parent elements in nesting order. As a result, when clicking on a child element one may exhibit the handler of the parent activating.
+One way to prevent event bubbling is using event.stopPropagation() or event.cancelBubble on IE < 9.
+
+14. 
