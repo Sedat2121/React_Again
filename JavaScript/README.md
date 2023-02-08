@@ -188,3 +188,40 @@ Both are fine; the function call Error(…) is equivalent to the object creation
 0 == false; // true
 ```
 My advice is never to use the == operator, except for convenience when comparing against null or undefined, where a == null will return true if a is null or undefined.
+
+21. What is the difference between Host objects and Native objects?
+Native objects are objects that are part of the JavaScript language defined by the ECMAScript specification, such as ```String, Math, RegExp, Object, Function,``` etc.
+
+Host objects are provided by the runtime environment (browser or Node), such as ```window, XMLHTTPRequest,``` etc.
+
+22. What is Callback Hell and what is the main cause of it?
+Asynchronous JavaScript, or JavaScript that uses callbacks, is hard to get right intuitively. A lot of code ends up looking like this:
+```
+fs.readdir(source, function (err, files) {
+  if (err) {
+    console.log('Error finding files: ' + err)
+  } else {
+    files.forEach(function (filename, fileIndex) {
+      console.log(filename)
+      gm(source + filename).size(function (err, values) {
+        if (err) {
+          console.log('Error identifying file size: ' + err)
+        } else {
+          console.log(filename + ' : ' + values)
+          aspect = (values.width / values.height)
+          widths.forEach(function (width, widthIndex) {
+            height = Math.round(width / aspect)
+            console.log('resizing ' + filename + 'to ' + height + 'x' + height)
+            this.resize(width, height).write(dest + 'w' + width + '_' + filename, function(err) {
+              if (err) console.log('Error writing file: ' + err)
+            })
+          }.bind(this))
+        }
+      })
+    })
+  }
+})
+```
+See the pyramid shape and all the }) at the end? This is affectionately known as callback hell.
+
+The cause of callback hell is when people try to write JavaScript in a way where execution happens visually from top to bottom. Lots of people make this mistake! In other languages like C, Ruby or Python there is the expectation that whatever happens on line 1 will finish before the code on line 2 starts running and so on down the file.
