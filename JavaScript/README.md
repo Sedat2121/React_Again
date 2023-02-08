@@ -169,4 +169,22 @@ The DOM event DOMContentLoaded will fire after the DOM for the page has been con
 18. Explain the same-origin policy with regards to JS
 The same-origin policy prevents JavaScript from making requests across domain boundaries. An origin is defined as a combination of URI scheme, hostname, and port number. This policy prevents a malicious script on one page from obtaining access to sensitive data on another web page through that page's Document Object Model.
 
-19. 
+19. What is difference between ``` throw Error('msg') ``` vs ``` throw new Error('msg')```? 
+```
+var err1 = Error('message');
+var err2 = new Error('message');
+```
+Which one is correct and why?
+Both are fine; the function call Error(…) is equivalent to the object creation expression new Error(…) with the same arguments.
+
+20. What is differenrce between == and ===? 
+== is the abstract equality operator while === is the strict equality operator. The == operator will compare for equality after doing any necessary type conversions. The === operator will not do type conversion, so if two values are not the same type === will simply return false. When using ==, funky things can happen, such as:
+```
+1 == '1'; // true
+1 == [1]; // true
+1 == true; // true
+0 == ''; // true
+0 == '0'; // true
+0 == false; // true
+```
+My advice is never to use the == operator, except for convenience when comparing against null or undefined, where a == null will return true if a is null or undefined.
