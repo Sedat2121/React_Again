@@ -1,4 +1,4 @@
-# fullStack.cafe JavaScript Interview questions
+# fullstack.cafe JavaScript Interview questions
 
 1. What is typeof operator?
 JavaScript provides a typeof operator that can examine a value and tell you what type it is:
@@ -158,3 +158,10 @@ forEach - arr.forEach(function (el, index) { ... }). This construct can be more 
 Most of the time, I would prefer the .forEach method, but it really depends on what you are trying to do. for loops allow more flexibility, such as prematurely terminate the loop using break or incrementing the iterator more than once per loop.
 ```
 
+16. Why is it, in general, a good idea to leave the global scopeof a website as-is and never touch it?
+Every script has access to the global scope, and if everyone uses the global namespace to define their variables, collisions will likely occur. Use the module pattern (IIFEs) to encapsulate your variables within a local namespace.
+
+17. Why would you use the load event? advantages? alternatives?
+The load event fires at the end of the document loading process. At this point, all of the objects in the document are in the DOM, and all the images, scripts, links and sub-frames have finished loading.
+
+The DOM event DOMContentLoaded will fire after the DOM for the page has been constructed, but do not wait for other resources to finish loading. This is preferred in certain cases when you do not need the full page to be loaded before initializing.
