@@ -141,4 +141,6 @@ When an element receives an event, and that event bubbles up to its parent and a
 Event bubbling is the concept in which an event triggers at the deepest possible element, and triggers on parent elements in nesting order. As a result, when clicking on a child element one may exhibit the handler of the parent activating.
 One way to prevent event bubbling is using event.stopPropagation() or event.cancelBubble on IE < 9.
 
-14. 
+14. What does "use strict" do? 
+it directive enables Jacascript's strict mode which was introduce in ECMAScript 5. It enforces stricter parsing and error handling on the code at runtime. It also helps you write cleaner code and catch errors and bugs that might otherwise go unnoticed.
+
