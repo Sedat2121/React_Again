@@ -37,3 +37,12 @@ Provide better semantic support for web page structure through new structural el
 Provide a stricter parsing standard to simplify error handling, ensure more consistent cross-browser behaviour, and simplify compatibility with documents written to older standards.
 Provide better cross-platform support whether running on a PC, Tablet, or Smartphone.
 
+6. How can you highlight text in HTML?
+If you are working with an HTML5 page, the <mark> tag can be a quick and easy way of highlighting or marking text on a page:
+```
+<mark>highlighted text</mark>
+```
+To highlight text with just HTML code and support for all browsers, set the background-color style, as shown in the example below, using the HTML tag.
+```
+<span style="background-color: #FFFF00">Yellow text.</span>
+```
