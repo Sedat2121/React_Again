@@ -29,3 +29,11 @@ It is possible to get indexed better by placing the following two statements in 
 ```
 Both may contain up to 1022 characters. If a keyword is used more than 7 times, the keywords tag will be ignored altogether. Also, you cannot put markup (other than entities) in the description or keywords list.
 
+5. HTML5 specifications?
+HTML5 was designed to replace HTML 4, XHTML, and the HTML DOM Level 2. The key goals and motivations behind the HTML5 specification were to:
+
+Deliver rich content (graphics, movies, etc.) without the need for additional plugins, such as Flash.
+Provide better semantic support for web page structure through new structural element tags.
+Provide a stricter parsing standard to simplify error handling, ensure more consistent cross-browser behaviour, and simplify compatibility with documents written to older standards.
+Provide better cross-platform support whether running on a PC, Tablet, or Smartphone.
+
