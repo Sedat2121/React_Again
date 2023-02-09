@@ -13,3 +13,6 @@ Tip: Use CSS to style the <iframe>
 
 Tip: It is a good practice to always include a title attribute for the <iframe>. This is used by screen readers to read out what the content of the <iframe> is.
 
+2. What is the purpose of the alt attribute on images? 
+The alt attribute provides alternative information for an image if a user cannot view it. The alt attribute should be used to describe any images except those which only serve a decorative purposes, in which case it should be left empty.
+
