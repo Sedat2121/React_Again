@@ -70,3 +70,28 @@ HTML5:
 
 <meta charset="UTF-8">
 ```
+10. What is a self closing tag? 
+```
+In HTML5 it is not strictly necessary to close certain HTML tags. The tags that aren’t required to have specific closing tags are called “self closing” tags.
+
+An example of a self closing tag is something like a line break (<br />) or the meta tag (<meta>). This means that the following are both acceptable:
+
+<meta charset="UTF-8">
+...
+<meta charset="UTF-8" />
+
+```
+
+12. HTML attribute and property?
+```
+Attributes are defined on the HTML markup but properties are defined on the DOM. To illustrate the difference, imagine we have this text field in our HTML: <input type="text" value="Hello">.
+
+const input = document.querySelector('input');
+console.log(input.getAttribute('value')); // Hello
+console.log(input.value); // Hello
+But after you change the value of the text field by adding "World!" to it, this becomes:
+
+console.log(input.getAttribute('value')); // Hello
+console.log(input.value); // Hello World!
+
+```
