@@ -13,15 +13,18 @@ Tip: Use CSS to style the <iframe>
 
 Tip: It is a good practice to always include a title attribute for the <iframe>. This is used by screen readers to read out what the content of the <iframe> is.
 
-2. What is the purpose of the alt attribute on images? 
+2. Explain meta tags in HTML
+
+
+3. What is the purpose of the alt attribute on images? 
 The alt attribute provides alternative information for an image if a user cannot view it. The alt attribute should be used to describe any images except those which only serve a decorative purposes, in which case it should be left empty.
 
-3. What is difference between span and div? 
+4. What is difference between span and div? 
 -div is a block element
 -span is inline element
 For bonus points, you could point out that it’s illegal to place a block element inside an inline element, and that while div can have a p tag, and a p tag can have a span, it is not possible for span to have a div or p tag inside.
 
-4. How can i get indexed better by search engines?
+5. How can i get indexed better by search engines?
 It is possible to get indexed better by placing the following two statements in the <HEAD> part of your documents:
 ```
 <META NAME="keywords" CONTENT="keyword keyword keyword keyword">
@@ -29,7 +32,7 @@ It is possible to get indexed better by placing the following two statements in 
 ```
 Both may contain up to 1022 characters. If a keyword is used more than 7 times, the keywords tag will be ignored altogether. Also, you cannot put markup (other than entities) in the description or keywords list.
 
-5. HTML5 specifications?
+6. HTML5 specifications?
 HTML5 was designed to replace HTML 4, XHTML, and the HTML DOM Level 2. The key goals and motivations behind the HTML5 specification were to:
 
 Deliver rich content (graphics, movies, etc.) without the need for additional plugins, such as Flash.
@@ -37,7 +40,7 @@ Provide better semantic support for web page structure through new structural el
 Provide a stricter parsing standard to simplify error handling, ensure more consistent cross-browser behaviour, and simplify compatibility with documents written to older standards.
 Provide better cross-platform support whether running on a PC, Tablet, or Smartphone.
 
-6. How can you highlight text in HTML?
+7. How can you highlight text in HTML?
 If you are working with an HTML5 page, the <mark> tag can be a quick and easy way of highlighting or marking text on a page:
 ```
 <mark>highlighted text</mark>
@@ -46,3 +49,12 @@ To highlight text with just HTML code and support for all browsers, set the back
 ```
 <span style="background-color: #FFFF00">Yellow text.</span>
 ```
+8. HTML5 Semantic Tags:
+-<header> is used to contain introductory and navigational information about a section of the page. This can include the section heading, the author’s name, time and date of publication, table of contents, or other navigational information.
+
+-<article> is meant to house a self-contained composition that can logically be independently recreated outside of the page without losing it’s meaining. Individual blog posts or news stories are good examples.
+
+-<section> is a flexible container for holding content that shares a common informational theme or purpose.
+
+<footer> is used to hold information that should appear at the end of a section of content and contain additional information about the section. Author’s name, copyright information, and related links are typical examples of such content.
+
