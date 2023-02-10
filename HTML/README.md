@@ -58,3 +58,15 @@ To highlight text with just HTML code and support for all browsers, set the back
 
 <footer> is used to hold information that should appear at the end of a section of content and contain additional information about the section. Author’s name, copyright information, and related links are typical examples of such content.
 
+9. What is Character Encoding(character set)?
+To display an HTML page correctly, a web browser must know which character set (character encoding) to use. This is specified in the tag:
+```
+HTML4:
+
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+```
+```
+HTML5:
+
+<meta charset="UTF-8">
+```
