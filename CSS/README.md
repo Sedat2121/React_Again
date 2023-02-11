@@ -126,3 +126,28 @@ A set of properties, which have values set to update how the HTML content is dis
 A selector, which selects the element(s) you want to apply the updated property values to.
 A set of CSS rules contained within a stylesheet determines how a webpage should look.
 
+11. What is SASS?
+
+Sass or Syntactically Awesome StyleSheets is a CSS preprocessor that adds power and elegance to the basic language. It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized, and get small stylesheets up and running quickly.
+
+A CSS preprocessor is a scripting language that extends CSS by allowing developers to write code in one language and then compile it into CSS.
+
+12. CSS Frameworks?
+
+Tailwind, Material UI, Foundation
+
+Bootstrap - Slow release cycle. Bootstrap 4 has been in alpha for almost 2 years. Add a spinner button component, as it is widely used.
+
+Semantic UI - Source code structure makes theme customization extremely hard to understand. Its unconventional theming system is a pain to customize. Hardcoded config path within the vendor library. Not well-designed for overriding variables unlike in Bootstrap.
+
+Bulma - A lot of non-semantic and superfluous classes and markup required. Not backward compatible. Upgrading versions breaks the app in subtle manners.
+
+13. Describe Floats and how it works?
+
+Float is a CSS positioning property. Floated elements remain a part of the flow of the web page. This is distinctly different than page elements that use absolute positioning. Absolutely positioned page elements are removed from the flow of the webpage.
+```
+#sidebar {
+  float: right; // left right none inherit			
+}
+The CSS clear property can be used to be positioned below left/right/both floated elements.
+```
