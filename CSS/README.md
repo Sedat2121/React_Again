@@ -103,4 +103,26 @@ Consider:
 }
 ```
 
-8. 
+8. Key features of SASS?
+
+Key features for Sass include;
+Full CSS3-compatible
+Language extensions such as nesting, variables, and mixins
+Many useful functions for manipulating colors and other values
+Advanced features like control directives for libraries
+Well-formatted, customizable output
+
+9. CSS class and ID attributes?
+
+IDs — Meant to be unique within the document. Can be used to identify an element when linking using a fragment identifier. Elements can only have one id attribute.
+
+Classes — Can be reused on multiple elements within the document. Mainly for styling and targeting elements.
+
+10. What is the CSS rule?
+
+Web browsers apply CSS rules to a document to affect how they are displayed. A CSS rule is formed from:
+
+A set of properties, which have values set to update how the HTML content is displayed,
+A selector, which selects the element(s) you want to apply the updated property values to.
+A set of CSS rules contained within a stylesheet determines how a webpage should look.
+
