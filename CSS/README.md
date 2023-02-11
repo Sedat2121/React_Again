@@ -71,3 +71,36 @@ Flexbox solves many common problems in CSS, such as vertical centering of elemen
 
 Grid is by far the most intuitive approach for creating grid-based layouts (it better be!) but browser support is not wide at the moment.
 
+7. What is @extend directive?
+
+Using @extend lets you share a set of CSS properties from one selector to another. It helps keep your Sass very dry.
+
+Consider:
+```
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.message {
+  @extend %message-shared;
+}
+
+.success {
+  @extend %message-shared;
+  border-color: green;
+}
+
+.error {
+  @extend %message-shared;
+  border-color: red;
+}
+
+.warning {
+  @extend %message-shared;
+  border-color: yellow;
+}
+```
+
+8. 
