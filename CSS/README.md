@@ -54,3 +54,12 @@ Advantages:
 Reduce the number of HTTP requests for multiple images (only one single request is required per spritesheet). But with HTTP2, loading multiple images is no longer much of an issue.
 Advance downloading of assets that won’t be downloaded until needed, such as images that only appear upon :hover pseudo-states. Blinking wouldn't be seen.
 
+5. Explain CSS box model and the layout components that it consists of?
+
+The CSS box model is a rectangular layout paradigm for HTML elements that consists of the following:
+
+Content - The content of the box, where text and images appear
+Padding - A transparent area surrounding the content (i.e., the amount of space between the border and the content)
+Border - A border surrounding the padding (if any) and content
+Margin - A transparent area surrounding the border (i.e., the amount of space between the border and any neighboring elements)
+
