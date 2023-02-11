@@ -151,3 +151,93 @@ Float is a CSS positioning property. Floated elements remain a part of the flow 
 }
 The CSS clear property can be used to be positioned below left/right/both floated elements.
 ```
+
+14. SASS nesting selector?
+
+Sass let you nest your CSS selectors in a way that follows the same visual hierarchy of your HTML. CSS, on the other hand, doesn't have any visual hierarchy.
+
+Consider example (scss):
+```
+.parent {
+  color: red;
+
+  .child {
+    color: blue;
+  }
+}
+Result (css):
+
+.parent {
+  color: red;
+}
+
+.parent .child {
+  color: blue;
+}
+```
+
+15. DOM and CSS?
+
+The Document Object Model (DOM) is a cross-platform and language-independent application programming interface that treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document.
+
+With the Document Object Model, programmers can create and build documents, navigate their structure, and add, modify, or delete elements and content. The DOM specifies interfaces which may be used to manage XML or HTML documents.
+
+When a browser displays a document, it must combine the document's content with its style information. The browser converts HTML and CSS into the DOM (Document Object Model). The DOM represents the document in the computer's memory. It combines the document's content with its style.
+
+16. Data types which SASS support?
+
+```
+Sass supports seven main data types:
+
+Numbers - most of the time they are accompanied by a unit of some sort but they are still technically numbers. You can perform basic mathematical operations on these values.
+$size: 18;                  // A number
+$px-unit: $size * 1px;      // A pixel measurement
+$px-string: $size + px;     // A string
+$px-number: $px-unit / 1px; // A number
+Strings - just like CSS, accepts both quoted and unquoted strings, even if they contain spaces
+$website: 'SitePoint'; // Stores SitePoint
+$name: 'Gajendar' + ' Singh';  // 'Gajendar Singh'
+$date:  'Month/Year : ' + 3/2016; // 'Month/Year : 3/2016'
+$date:  'Month/Year : ' + (3/2016); // 'Month/Year : 0.00149' 
+// This is because 3/2016 is evaluated first.
+$variable: 3/2016;      // Evaluated to 0.00149
+Colors - CSS color expressions come under the color data type. You can refer to the colors in hexadecimal notation, as rgb, rgba, hsl and hsla values or use native keywords like pink, blue, etc.
+$color: yellowgreen;           // #9ACD32
+color: lighten($color, 15%);    // #b8dc70
+color: darken($color, 15%);     // #6c9023
+color: saturate($color, 15%);   // #a1e01f
+color: desaturate($color, 15%); // #93ba45
+color: (green + red);           // #ff8000
+Booleans - has only two possible values: true and false
+$i-am-true: true;
+
+body {
+  @if not $i-am-true {
+    background: rgba(255, 0, 0, 0.6);
+  } @else {
+    background: rgba(0, 0, 255, 0.6); // expected
+  }
+}
+Null - is commonly used to define an empty state, neither true or false. This is typically the value you want to set when defining a variable without a value, only to prevent the parser from crashing.
+.foo {
+  content: type-of(null); // null
+  content: type-of(NULL); // string
+  $bar: 'foo' + null; // invalid null operation: "foo plus null”.
+}
+Lists - are just the Sass version of arrays. You can store multiple types of values in a list.
+$font-list: 'Raleway','Dosis','Lato'; // Three comma separated elements
+$pad-list: 10px 8px 12px; // Three space separated elements
+$multi-list: 'Roboto',15px 1.3em; // This multi-list has two lists.
+Maps - Sass maps are like associative arrays. A map stores both keys and values associated with those keys.
+$styling: (
+  'font-family': 'Lato',
+  'font-size': 1.5em,
+  'color': tomato,
+  'background': black
+);
+
+h1 {
+  color: map-get($styling, 'color');
+  background: map-get($styling, 'background');
+}
+```
