@@ -67,3 +67,22 @@ In my current role as a product manager, I’m responsible for specific feature 
 
 I have a strong desire to succeed, which generally serves me well. But I’ve realized that it can also be a blind spot if I’m not being honest with myself about what’s possible.
 
+4. Why sould we hire you?
+```
+This is a nerve-racking question, so make sure you're set up for success. Here are some tips that can help you do well in answering it:
+ 
+Ask yourself why you think you’re qualified.
+Prepare for the interview by picking three or four qualifications and experiences that help them understand why you're a fit for this job.
+ 
+Tell them how you’d fit in.
+Paint a picture of what you’d accomplish that gives you a leg up on the competition. Also, show them why you are a great match for this company by letting them see that you know about their mission, their vision, how they operate—and how you would fit into that really well.
+ 
+Speak authentically.
+How you say something is as important as what you say. So when you're sharing your successes and you're answering these questions, speak like the best version of yourself and make sure that you're doing it in a way that allows the interviewers to connect to you.
+```
+I have an insatiable level of curiosity and tend to do lots of research on any topic that I'm less than an expert in. And I know your values include constant learning. That really resonates with my passion. I'm just eager to become part of a fast-growing, mission-oriented organization like yours.
+
+I’m motivated and excited to learn your company’s unique business model, and from my interactions with the employees here, I can see that we share values like respect, trust, and excellence. Overall, I believe I bring the right mix of skills, experiences and attitude for the job and think that my varied experience can add a lot of value here.
+
+I am also proactive in learning new skills. For example, knowing that effective communication is the key to making findings convincing, I sought out and took training sessions on both data visualization and presentation. These skill sets have been critical in successfully pitching and persuading senior leadership on changes to strategy. As a result, I was quickly promoted to a senior role in just a year. Given the growth moment that your company is poised to have, I believe that my unique experience will be an asset to your team. I’m excited to expand my expertise within a new industry, and recommend key strategies and opportunities that will support and drive business. Why this answer worked well:The answer featured a blend of quantifiable results and personal strengths.There was clear awareness of the company’s trajectory and enthusiasm for the role.
+
