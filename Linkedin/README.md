@@ -48,3 +48,22 @@ Over the last several years, I’ve realized my strength as an analytical thinke
 
 My greatest strength is that I am equally at ease when talking to executives, business users, and engineers. I come from an engineering background, but I have a very strong understanding of the business. This well-rounded view allows me to connect with colleagues from disparate departments and points of view quickly and authentically.
 
+3. What is your greatest weakness? 
+```
+This can feel like a tricky question, but it’s a good opportunity to shine. Here are some tips on how to answer:
+ 
+Be humble.
+You want to communicate an authentic story that shows you're self-aware. It's okay that you don't come off as perfect, that's authentic, which is important for someone who will have to trust you in the role that they're hiring for.
+ 
+Choose a trait that is not too relevant to the job.
+For example, if you're applying for a project manager role, choose a weakness that is more related to creativity, which is something that doesn't disqualify you from the description of the things that would make someone successful in that role
+ 
+Show how you manage it.
+Have a fix-it strategy. For example, if you struggle with remembering product details so you track them in their phone or side notebook, that's okay, share that with them. That shows that you've got commitment to solving that problem and addressing it.
+```
+I get excited when people on my team brainstorm about big new ideas. I sometimes get so caught up in the moment that I volunteer to do too much. I know this can be a distraction in ways that put me at risk of not getting work done properly or missing deadlines.
+
+In my current role as a product manager, I’m responsible for specific feature building. So, I work with a lot of cross-functional teams like engineers and designers. I think one thing that I can always improve on is patience, taking time to really see and understand other people’s perspectives
+
+I have a strong desire to succeed, which generally serves me well. But I’ve realized that it can also be a blind spot if I’m not being honest with myself about what’s possible.
+
