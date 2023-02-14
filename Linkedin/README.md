@@ -151,3 +151,20 @@ I think my coworkers would tell you that I'm the one you turn to when it's time 
 
 I would expect that most coworkers would describe me as driven. When I join teams or start on projects, I spend a lot of time understanding what’s most important about the work, which is a huge motivating factor for me. Once I lock in on what matters most, I share it with the team so we’re all invested with a common purpose. Being driven allows me to share what some have called my “infectious enthusiasm” with others and rally the team, and also means that I spend a lot of time with my work to make sure it’s done well. My teams have solid track records of hitting if not exceeding their goals because of this focus and ability to motivate. A good example was when I was working with quite a large group, and our project was given to us top-down. This didn’t feel empowering for the team, but I worked with leadership and our user research team to help the engineers and designers recognize the value of what we were working on. It was slated to be a multiyear project, but because the team was motivated and we focused on creating specifications for the product, we were able to deliver a prototype in just a few months. 
 
+9. Why do you want to leave your current role?
+```
+Hiring managers will often ask this question, and it's a test. Are you running away from something, or are you running towards something? The advice when you get this question is simple:
+ 
+Stay positive.
+Employers want to see that you have a good attitude in general. Resist the temptation to say bad things about your current job, employer, or boss.
+ 
+Focus on where you’d like to go.
+You should come off as someone who is looking forward, not backward. Portray your interests more in the light of what you want to get out of your next role.
+ 
+Bring it back to them.
+Show them that you’ve done your homework about their company, and relate what you tell them back to the specific job you're interviewing for.
+```
+I'm eager to find a new opportunity and grow. As you can see, I've been doing the same kind of work for two and a half years, and I'm starting to stagnate. My company doesn't have a role open for the next step up, unfortunately. So, I'm excited about the opportunity of becoming a sales manager at your company. The new role will let me use the skills I've developed in my current role like making cold calls; hooking in new clients with pithy-but-inspiring opening lines; following up with carefully crafted emails; listening to their pain points; and then offering up solutions that can solve their problems. I'm eager to make a fresh start, and I want to use my cold calling and listening skills to help craft an even better solution with the product I'd be working on in this new role
+
+I believe that the key to long-term professional growth is gathering critical, foundational experiences. In my case, my aspiration is to lead a large multinational business in a general managerial capacity. To get there, I have identified a set of enabling experiences, and have been very intentional in choosing my roles and assignments so far. While I have learned an immense amount in my current role as a strategic insights marketing manager, I believe that it’s the right time to expand my learning with a new challenge. Over the last 4 years, I have worked across a variety of marketing, strategy, and sales assignments across different global regions. I’ve built a strong understanding of how to sustainably grow brands & businesses through consumer-centric strategies. 
+
