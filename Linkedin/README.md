@@ -102,3 +102,23 @@ I have spoken to people who worked here previously and I was always highly impre
 
 I understand that you’re looking for a leader who can implement and scale your data analytics platform. Over the course of my career, I have implemented data analytics platforms for 3 companies. Each had its own unique challenges and required me to learn, grow, and expand my skill set. I’m energized by new and complex challenges, and have the background, experience, and successful track record required to implement this system within your organization. The space in which your company operates is also of personal interest to me and I would love to contribute to it and help the company grow. When I started at my current company, I had a team of 4 people which I scaled to 28 people. I led the team in designing and building a big data platform for this big global company. Ultimately, we expanded the user base from 100 to 1,200. I’m looking forward to the next chapter and challenge, and believe I can bring real value to this organization
 
+6. Tell me about a time you showed leadership
+```
+Respond to this kind of question with a compelling story that uses the "SAR" framework: situation, action, and results.
+ 
+Describe the situation.
+Talk about the initial events that occurred. What were the problems that you were experiencing? What needed to be solved and what resources did you have--or not have? This is a really key part of the story, so it should be about three to four sentences long.
+ 
+Get into the action.
+Speak about the key milestones that you went through. Tell them what you did to turn the situation around. Don't go into too much detail though. It should only be about two to three sentences, and try to use active verbs, things like “I implemented” or “I persuaded”.
+ 
+Show the results.
+Let them know how well things turned out, how the problems were solved and what you may have learned along the way. Try to include a clincher at the end, like dollars saved or improved profitability. It drives home that you did a great thing.
+```
+
+Recently there was a situation where my manager needed to take medical leave and was unable to come into work for a few weeks. This coincided with a major deadline that he was leading. I knew that if this project wasn't completed on time, we were at risk of losing a major client. I looked to my right and my left, and there wasn't anyone else who could own the project, so I jumped in with both feet and took the initiative. I went through the files and developed a schedule detailing what needed to be completed, and I worked with my coworkers to ensure they were on board too. In the end, we were able to complete the project by the deadline. The client was pleased and stayed on as a loyal customer to the company. When my boss came back, he gave me an end-of-quarter bonus because he was impressed I was able to rally everyone to complete the project
+
+I was working on a high visibility project and during production, two members on my cross-functional team had different approaches to a problem that we were facing. They both wanted credit for being right, and we were at a stalemate. To move forward, I needed to help align the team. I wasn’t their reporting manager but I was the project lead, so I asked them to explain the pros and cons of their approach. I encouraged them to fairly assess their solutions and moderated the discussion so that it stayed productive and respectful.
+
+During a recent project, I was responsible for helping to improve the margins of an existing product line used by multiple customer segments. The product had multiple elements of design, manufacturing, and software support. Leadership had been eyeing cost-cutting efforts for some time. My first step was to clearly understand the situation and how the product had become less profitable. So, I sat down with the design, sales, marketing, and operations teams to document all perspectives. In parallel, I met with the finance team to clearly understand areas of potential savings. In the end, I identified 3 clear steps: streamline processes around assembly and testing, make small design tweaks to remove unnecessary features, and simplify the product overall.
+
