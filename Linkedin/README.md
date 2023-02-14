@@ -185,3 +185,15 @@ In my current role, I was in charge of leading a major marketing campaign for a 
 
 I was brought into a project right before the ramp, when the existing team ran into a blocker issue. They were severely constrained in both resources and time, and didn’t have the bandwidth to address it. Obviously, there was a lot at stake. The expectation was that I would quickly solve the issue, but I was coming in completely cold and the team was stressed and resistant to stop what they were doing to bring me up to speed. Success required two things. First, I needed to clearly explain exactly what I needed from each team member — and why. Second, I needed to gather this information and context as quickly and efficiently as possible.
 
+11. Tell me about something you have accoplished that you are proud of
+```
+Describe the situation.
+Talk about the initial events that occurred. What were the problems that you were experiencing? What needed to be solved and what resources did you have--or not have? This is a really key part of the story, so it should be about three to four sentences long.
+ 
+Get into the action.
+Speak about the key milestones that you went through. Tell them what you did to turn the situation around. Don't go into too much detail though. It should only be about two to three sentences, and try to use active verbs, things like “I implemented” or “I persuaded”.
+ 
+Show the results.
+Let them know how well things turned out, how the problems were solved and what you may have learned along the way. Try to include a clincher at the end, like dollars saved or improved profitability. It drives home that you did a great thing.
+```
+In my role on the innovation strategy team, I helped create a long-term innovation pipeline which led to multiple product launches for a critical business unit. While the company was a market leader in the space, we had been rapidly losing market share over the last few years. My first action was to identify the root cause of our declines. Through a detailed analysis, I identified that our product lineup didn’t fully satisfy evolving consumer needs. I also examined our past product launches and found that they’d lacked differentiated utility. I got approval from leadership to take an end-to-end approach using design thinking. We started with consumer immersions to understand how our products are used and which barriers we’d need to overcome. From there, we created new product concepts. We tested the concepts with consumers and created a long-term innovation pipeline. Finally, we partnered with cross-functional teams to charter and launch 3 products in just 2 years. This increased market share for the first time in 5 years, and we have seen sustained sales growth ever since. 
