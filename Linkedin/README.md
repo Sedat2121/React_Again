@@ -168,3 +168,20 @@ I'm eager to find a new opportunity and grow. As you can see, I've been doing th
 
 I believe that the key to long-term professional growth is gathering critical, foundational experiences. In my case, my aspiration is to lead a large multinational business in a general managerial capacity. To get there, I have identified a set of enabling experiences, and have been very intentional in choosing my roles and assignments so far. While I have learned an immense amount in my current role as a strategic insights marketing manager, I believe that it’s the right time to expand my learning with a new challenge. Over the last 4 years, I have worked across a variety of marketing, strategy, and sales assignments across different global regions. I’ve built a strong understanding of how to sustainably grow brands & businesses through consumer-centric strategies. 
 
+10. Describe your most challenged project
+```
+Respond to this kind of question with a compelling story that uses the "SAR" framework: situation, action, and results.
+ 
+Describe the situation.
+Talk about the initial events that occurred. What were the problems that you were experiencing? What needed to be solved and what resources did you have--or not have? This is a really key part of the story, so it should be about three to four sentences long.
+ 
+Get into the action.
+Speak about the key milestones that you went through. Tell them what you did to turn the situation around. Don't go into too much detail though. It should only be about two to three sentences, and try to use active verbs, things like “I implemented” or “I persuaded”.
+ 
+Show the results.
+Let them know how well things turned out, how the problems were solved and what you may have learned along the way. Try to include a clincher at the end, like dollars saved or improved profitability. It drives home that you did a great thing.
+```
+In my current role, I was in charge of leading a major marketing campaign for a new product launching nationwide. The project was challenging both because of how large it was and because it involved constant communication with at least seven teams inside my company. Even though I tried to share the same information with everyone, it was clear that not everyone was on the same page. Partway through, I discovered that some of the teams were not on schedule with their assigned tasks. The implications were significant, and a delay to the campaign would negatively impact our revenue goals. I identified the root causes of the delays and set up a plan of action to address them. I planned in-depth one-on-one meetings with the team leaders to help re-inspire them. We talked about the goals and set ambitious targets for getting these last items across the finish line. I then organized and led status-update calls for the larger team and implemented a public dashboard to keep everyone accountable. In the end, we did meet the marketing campaign deadlines and the product launch was a hit. The company hit their revenue goals and everyone on the sales team received a well-deserved bonus
+
+I was brought into a project right before the ramp, when the existing team ran into a blocker issue. They were severely constrained in both resources and time, and didn’t have the bandwidth to address it. Obviously, there was a lot at stake. The expectation was that I would quickly solve the issue, but I was coming in completely cold and the team was stressed and resistant to stop what they were doing to bring me up to speed. Success required two things. First, I needed to clearly explain exactly what I needed from each team member — and why. Second, I needed to gather this information and context as quickly and efficiently as possible.
+
