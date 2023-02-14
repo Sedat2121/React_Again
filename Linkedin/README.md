@@ -86,3 +86,19 @@ I’m motivated and excited to learn your company’s unique business model, and
 
 I am also proactive in learning new skills. For example, knowing that effective communication is the key to making findings convincing, I sought out and took training sessions on both data visualization and presentation. These skill sets have been critical in successfully pitching and persuading senior leadership on changes to strategy. As a result, I was quickly promoted to a senior role in just a year. Given the growth moment that your company is poised to have, I believe that my unique experience will be an asset to your team. I’m excited to expand my expertise within a new industry, and recommend key strategies and opportunities that will support and drive business. Why this answer worked well:The answer featured a blend of quantifiable results and personal strengths.There was clear awareness of the company’s trajectory and enthusiasm for the role.
 
+5. Why do you want to work here?
+```
+Make it all about them.
+Your best answer will be about what they need. It'll show that you've done your research and have thought through what you can contribute to that team.
+ 
+Show them how you can help.
+Weave your story into the context of what you can contribute. If you have strong accounting skills and are interviewing for a finance role at a humane society, you could suggest that this job would allow you to blend your professional skills with your passion for animals.
+ 
+Speak from the heart.
+Telling a genuine story can make a big difference. For example, I once worked with a client who was applying for a zoo event manager job and she had grown up next door to that zoo and had great memories of the peacocks flying over the fence and sitting on her dad's car. So her answer was that she wanted people to have fun memories of that zoo just like she did. Try to top that.
+```
+
+I have spoken to people who worked here previously and I was always highly impressed on how highly they spoke about the company and how well they developed themselves. I admire your mentor program and have always believed that mentorship is key to a company’s success and an individual’s personal and professional growth. I see this opportunity as a way to contribute to an exciting fast growth company with such a potential with my skills well-suited to add value to the company’s growth. Within the last three years, for example, I set the goal of growing and evolving my team. I was able to coach and promote three different partnership employees into new roles. I was also able to optimize pricing and promotions, which saved the company money and resources and exceeded revenue projections three years in a row. My track record of outperforming expectations and ability lead will help accelerate the fascinating growth you are seeing
+
+I understand that you’re looking for a leader who can implement and scale your data analytics platform. Over the course of my career, I have implemented data analytics platforms for 3 companies. Each had its own unique challenges and required me to learn, grow, and expand my skill set. I’m energized by new and complex challenges, and have the background, experience, and successful track record required to implement this system within your organization. The space in which your company operates is also of personal interest to me and I would love to contribute to it and help the company grow. When I started at my current company, I had a team of 4 people which I scaled to 28 people. I led the team in designing and building a big data platform for this big global company. Ultimately, we expanded the user base from 100 to 1,200. I’m looking forward to the next chapter and challenge, and believe I can bring real value to this organization
+
