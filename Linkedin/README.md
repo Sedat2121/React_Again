@@ -122,3 +122,17 @@ I was working on a high visibility project and during production, two members on
 
 During a recent project, I was responsible for helping to improve the margins of an existing product line used by multiple customer segments. The product had multiple elements of design, manufacturing, and software support. Leadership had been eyeing cost-cutting efforts for some time. My first step was to clearly understand the situation and how the product had become less profitable. So, I sat down with the design, sales, marketing, and operations teams to document all perspectives. In parallel, I met with the finance team to clearly understand areas of potential savings. In the end, I identified 3 clear steps: streamline processes around assembly and testing, make small design tweaks to remove unnecessary features, and simplify the product overall.
 
+7. Tell me about a time you were successful on a team
+```
+Describe the situation.
+Talk about the initial events that occurred. What were the problems that you were experiencing? What needed to be solved and what resources did you have--or not have? This is a really key part of the story, so it should be about three to four sentences long.
+ 
+Get into the action.
+Speak about the key milestones that you went through. Tell them what you did to turn the situation around. Don't go into too much detail though. It should only be about two to three sentences, and try to use active verbs, things like “I implemented” or “I persuaded”.
+ 
+Show the results.
+Let them know how well things turned out, how the problems were solved and what you may have learned along the way. Try to include a clincher at the end, like dollars saved or improved profitability. It drives home that you did a great thing.
+```
+
+I joined a team 6 months after the MVP launch which was moderately successful, but short of management expectations. Without a real roadmap, the team was just running small experiments to drive incremental gains. I quickly realized that we’d need to do more than that to realize the long-term vision of the product. To gain the trust of my new team, I focused on what could be improved in the immediate future. I helped rationalize the short-term experiment roadmap, organized execution, removed roadblocks, and helped ship few of the high potential experiments. Concurrently, I spent time with the executive team to understand their expectations. After observing users and analyzing our logs, I partnered with team leads across Engineering, Design, and Research to develop an updated mission statement and a set of defined success metrics. Within 3 months, we were charging full-speed ahead with an updated roadmap, improvement operational metrics, and significant boost on a platform satisfaction survey. Two years later, the product had been used by hundreds of millions of people every month — 40 times the amount we started with
+
