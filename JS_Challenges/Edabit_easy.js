@@ -117,3 +117,11 @@ console.log(whichIsLarger(() => 25, () => 15));
 console.log(whichIsLarger(() => 25, () => 25));
 console.log(whichIsLarger(() => 505050, () => 5050));
 console.log(whichIsLarger(() => 25,  () => 5)); */
+
+
+// 5. Create a function that returns a base-2 (binary) representation of a base-10 (decimal) string number.
+/* function binary(decimal) {
+	return  parseInt(decimal, 2);
+}
+
+console.log(binary("101101")); */
