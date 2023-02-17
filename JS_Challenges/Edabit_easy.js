@@ -100,4 +100,20 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 console.log(fruits.sort());
 console.log(fruits.reverse()); */
 
+// 4. Your function will be passed two functions, f and g, 
+// that don't take any parameters. Your function has to call them,
+// and return a string which indicates which function returned the larger number.
+/*
+function whichIsLarger(f, g) {
+	if(f>g){
+        return "f";
+    }else if(g>f){
+        return "g";
+    }else 
+    return "neither";
+}
 
+console.log(whichIsLarger(() => 25, () => 15));
+console.log(whichIsLarger(() => 25, () => 25));
+console.log(whichIsLarger(() => 505050, () => 5050));
+console.log(whichIsLarger(() => 25,  () => 5)); */
