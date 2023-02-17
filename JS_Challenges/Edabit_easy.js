@@ -95,3 +95,9 @@ function minMax(arr) {
 
 console.log(minMax([33, 56, 78, 1])); */
 
+/*
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.sort());
+console.log(fruits.reverse()); */
+
+
