@@ -170,3 +170,17 @@ console.log(seriesResistance([1, 4, 7, 11])); */
 
 console.log(seriesResistance([1, 4, 7, 11])); */
 
+// 9. Write a function that takes a two-digit number and determines if it's the largest of two possible digit swaps.
+function largestSwap(num) {
+	let a = num/10; // first number
+    let b = num%10; // second number
+    let swap = (b*10)+a; // reversed number
+    if(swap>=num)
+    return true;
+    else
+    return false;
+}
+
+console.log(largestSwap(34));
+console.log(largestSwap(76));
+console.log(largestSwap(99));
