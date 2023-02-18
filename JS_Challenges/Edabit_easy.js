@@ -317,4 +317,43 @@ console.log(charCount("c", "Chamber of secrets"));
 console.log(charCount("b", "big fat bubble"));
 console.log(charCount("a", "edabit is such an awesome website where you can learn more about js")); */
 
+/* 18. Write a function that returns 0 if the input is 1, and returns 1 if the input is 0.
+function flip(y) {
+	return (y + 1) % 2;
+}
+
+console.log(flip(0));
+console.log(flip(1)); */
+
+/* 19. Given a number, return an array containing the two halves of 
+the number. If the number is odd, make the rightmost number higher.
+
+function numberSplit(n) {
+	if (n === undefined){
+        return "Input must be a number";
+    }
+    let a = Math.floor(n/2);
+    let b = n - a;
+    let result = [];
+    result.push(a, b);
+    return result;
+}
+
+console.log(numberSplit(21));
+console.log(numberSplit(-9));
+console.log(numberSplit(0));
+console.log(numberSplit()); */
+
+// 20. Create a function that takes an array of non-negative integers
+//  and strings and return a new array without the strings.
+/*function filterArray(arr) {
+	const number = arr.filter(function (num) {
+        if(typeof num != 'string')
+        return num;
+    });
+    return number;
+}
+
+console.log(filterArray([1, "a", "b", 0, 15])); */
+
 
