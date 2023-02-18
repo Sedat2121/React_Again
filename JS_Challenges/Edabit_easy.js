@@ -127,7 +127,7 @@ console.log(whichIsLarger(() => 25,  () => 5)); */
 console.log(binary("101101")); */
 
 // 6. Create a function that returns true if the first array can be nested inside the second and false otherwise.
-function canNest(arr1, arr2) {
+/*function canNest(arr1, arr2) {
 	let a = Math.min.apply(Math, arr1);
     let b = Math.max.apply(Math, arr1);
     let c = Math.min.apply(Math, arr2);
@@ -140,5 +140,13 @@ function canNest(arr1, arr2) {
 }
 
 console.log(canNest([1, 2, 3, 4], [0, 6]));
-console.log(canNest([1, 2, 3, 4], [2, 3]));
+console.log(canNest([1, 2, 3, 4], [2, 3])); */
+
+// 7. Create a function that calculates the number of different squares in an n * n square grid. 
+/*function numberSquares(n) {
+	return ((n*(n+1)*((2*n)+1))/6);
+}
+
+console.log(numberSquares(4));
+console.log(numberSquares(5)); */
 
