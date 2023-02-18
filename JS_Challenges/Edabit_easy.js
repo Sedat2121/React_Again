@@ -105,7 +105,7 @@ console.log(fruits.reverse()); */
 // and return a string which indicates which function returned the larger number.
 /*
 function whichIsLarger(f, g) {
-	if(f>g){
+    if(f>g){
         return "f";
     }else if(g>f){
         return "g";
@@ -121,14 +121,14 @@ console.log(whichIsLarger(() => 25,  () => 5)); */
 
 // 5. Create a function that returns a base-2 (binary) representation of a base-10 (decimal) string number.
 /* function binary(decimal) {
-	return  parseInt(decimal, 2);
+    return  parseInt(decimal, 2);
 }
 
 console.log(binary("101101")); */
 
 // 6. Create a function that returns true if the first array can be nested inside the second and false otherwise.
 /*function canNest(arr1, arr2) {
-	let a = Math.min.apply(Math, arr1);
+    let a = Math.min.apply(Math, arr1);
     let b = Math.max.apply(Math, arr1);
     let c = Math.min.apply(Math, arr2);
     let d = Math.max.apply(Math, arr2);
@@ -144,7 +144,7 @@ console.log(canNest([1, 2, 3, 4], [2, 3])); */
 
 // 7. Create a function that calculates the number of different squares in an n * n square grid. 
 /*function numberSquares(n) {
-	return ((n*(n+1)*((2*n)+1))/6);
+    return ((n*(n+1)*((2*n)+1))/6);
 }
 
 console.log(numberSquares(4));
@@ -154,14 +154,14 @@ console.log(numberSquares(5)); */
 // and calculates the total resistance of the circuit in ohms.
 // solution1:
 /*function seriesResistance(arr) {
-	return arr.reduce((a, b)=> {return a + b;})
+    return arr.reduce((a, b)=> {return a + b;})
 }
 
 console.log(seriesResistance([1, 4, 7, 11])); */
 
 //solution2
 /*function seriesResistance(arr) {
-	let sum = 0;
+    let sum = 0;
     for (let i in arr) {
         sum += arr[i];
     }
@@ -172,7 +172,7 @@ console.log(seriesResistance([1, 4, 7, 11])); */
 
 // 9. Write a function that takes a two-digit number and determines if it's the largest of two possible digit swaps.
 /*function largestSwap(num) {
-	let a = num/10; // first number
+    let a = num/10; // first number
     let b = num%10; // second number
     let swap = (b*10)+a; // reversed number
     if(swap>=num)
@@ -190,7 +190,7 @@ The wanted word is in lowercase.
 The crowd of letters is all in uppercase.
 Note that the word will be spread out amongst the random letters, but their letters remain in the same order. */
 /*function detectWord(str) {
-	let word = "";
+    let word = "";
     for(let i = 0; i < str.length; i++) {
         if(str[i] === str[i].toLowerCase()) {
             word += str[i];
@@ -221,15 +221,15 @@ in the following format:
 */
 /*
 class Person {
-	constructor(name, age) {
-		this.name = name;
-		this.age = age;
-	}
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
 
-	compareAge(other) {
-		
-		
-	}
+    compareAge(other) {
+    	
+    	
+    }
 }
 */
 
@@ -239,7 +239,7 @@ name and price. Create a function that has the drinks
 array as an argument and return the drinks objects sorted 
 by price in ascending order. */
 /*function sortDrinkByPrice(drinks) {
-	drinks = [
+    drinks = [
         {name: "lemonade", price: 50},
         {name: "lime", price: 10},
         {name: "coffee", price: 5},
@@ -251,3 +251,52 @@ by price in ascending order. */
 }
 
 console.log(sortDrinkByPrice()); */
+
+// 14. Create a function that takes two arrays and insert 
+// the second array in the middle of the first array.
+/* function tuckIn(arr1, arr2) {
+        let a = [arr1.shift()];
+        let b = [arr1.pop()];
+        for (let i = 0; i < arr2.length; i++) {
+            arr1.push(arr2[i]);
+        };
+        arr1.push(b[0]);
+        for (let n = 0; n < arr1.length; n++) {
+            a.push(arr1[n]);
+        };
+        return a;
+}
+console.log(tuckIn([1, 10], [2, 3, 4, 5, 6, 7, 8, 9]));
+console.log(tuckIn([15, 150], [45, 75, 35]));
+console.log(tuckIn([[1, 2], [5, 6]], [[3, 4]])); */
+
+// 15. Create a function to return the amount of potatoes there are in an array.
+
+/* function potatoes(arr) {
+	let counter = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if(arr[i]==="potato")
+        counter++;
+    }
+    return counter;
+}
+
+console.log(potatoes(["apple", "potato", "orange", "potato"])); */
+
+// 16. Create a function that returns whether the first array is slightly superior to that of the second.
+/* function isFirstSuperior(arr1, arr2) {
+    let result;
+	for (i in arr1){
+        for (j in arr2) {
+            if(arr1[i] > arr2[j]) {
+                result = true;
+            }else
+            result = false;
+        }
+    }
+    return result;
+}
+
+console.log(isFirstSuperior([1, 2, 4], [1, 2, 3]));
+console.log(isFirstSuperior(["a", "b", "c"], ["a", "d", "c"]));
+console.log(isFirstSuperior([1, 2, 3, 4], [1, 2, 1, 1])); */
