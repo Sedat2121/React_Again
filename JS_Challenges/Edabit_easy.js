@@ -160,3 +160,13 @@ console.log(numberSquares(5)); */
 console.log(seriesResistance([1, 4, 7, 11])); */
 
 //solution2
+/*function seriesResistance(arr) {
+	let sum = 0;
+    for (let i in arr) {
+        sum += arr[i];
+    }
+    return sum;
+}
+
+console.log(seriesResistance([1, 4, 7, 11])); */
+
