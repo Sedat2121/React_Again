@@ -219,6 +219,7 @@ be initialised with the attributes name and age, return a sentence
 in the following format:
 {other person name} is {older than / younger than / the same age as} me.
 */
+/*
 class Person {
 	constructor(name, age) {
 		this.name = name;
@@ -230,3 +231,23 @@ class Person {
 		
 	}
 }
+*/
+
+/* 13. You will be given an array of drinks, 
+with each drink being an object with two properties: 
+name and price. Create a function that has the drinks 
+array as an argument and return the drinks objects sorted 
+by price in ascending order. */
+/*function sortDrinkByPrice(drinks) {
+	drinks = [
+        {name: "lemonade", price: 50},
+        {name: "lime", price: 10},
+        {name: "coffee", price: 5},
+        {name: "tea", price: 5},
+        {name: "horchata", price: 75},
+        {name: "milk", price: 25},
+    ];
+    return drinks.sort((a, b) => (a.price > b.price) ? 1 : -1);
+}
+
+console.log(sortDrinkByPrice()); */
