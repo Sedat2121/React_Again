@@ -300,3 +300,21 @@ console.log(potatoes(["apple", "potato", "orange", "potato"])); */
 console.log(isFirstSuperior([1, 2, 4], [1, 2, 3]));
 console.log(isFirstSuperior(["a", "b", "c"], ["a", "d", "c"]));
 console.log(isFirstSuperior([1, 2, 3, 4], [1, 2, 1, 1])); */
+
+// 17. Create a function that takes two strings as arguments and returns the number of times the 
+// first string (the single character) is found in the second string.
+/* function charCount(myChar, str) {
+	let counter = 0;
+    for (let i = 0; i < str.length; i++) {
+        if (myChar === str[i]){
+            counter += 1;
+        }
+    }
+    return counter;
+}
+
+console.log(charCount("c", "Chamber of secrets"));
+console.log(charCount("b", "big fat bubble"));
+console.log(charCount("a", "edabit is such an awesome website where you can learn more about js")); */
+
+
