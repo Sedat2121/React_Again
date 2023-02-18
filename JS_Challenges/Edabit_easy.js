@@ -189,7 +189,7 @@ console.log(largestSwap(99)); */
 The wanted word is in lowercase.
 The crowd of letters is all in uppercase.
 Note that the word will be spread out amongst the random letters, but their letters remain in the same order. */
-function detectWord(str) {
+/*function detectWord(str) {
 	let word = "";
     for(let i = 0; i < str.length; i++) {
         if(str[i] === str[i].toLowerCase()) {
@@ -201,4 +201,15 @@ function detectWord(str) {
 
 console.log(detectWord("UcUNFYGaFYFYGtNUH"));
 console.log(detectWord("bEEFGBuFBRrHgUHlNFYaYr"));
-console.log(detectWord("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment"));
+console.log(detectWord("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment")); */
+
+// 11. Create a function that will take a HEX number and returns the binary equivalent (as a string).
+/*function toBinary(num) {
+    return (parseInt(num, 16).toString(2)).padStart(8, '0');
+}
+
+console.log(toBinary(0xFF));
+console.log(toBinary(0xAA));
+console.log(toBinary(0xFA)); */
+
+
