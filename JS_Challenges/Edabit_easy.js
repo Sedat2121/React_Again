@@ -171,7 +171,7 @@ console.log(seriesResistance([1, 4, 7, 11])); */
 console.log(seriesResistance([1, 4, 7, 11])); */
 
 // 9. Write a function that takes a two-digit number and determines if it's the largest of two possible digit swaps.
-function largestSwap(num) {
+/*function largestSwap(num) {
 	let a = num/10; // first number
     let b = num%10; // second number
     let swap = (b*10)+a; // reversed number
@@ -183,4 +183,22 @@ function largestSwap(num) {
 
 console.log(largestSwap(34));
 console.log(largestSwap(76));
-console.log(largestSwap(99));
+console.log(largestSwap(99)); */
+
+/* 10. Write a function to detect what the word is, knowing the following rules:
+The wanted word is in lowercase.
+The crowd of letters is all in uppercase.
+Note that the word will be spread out amongst the random letters, but their letters remain in the same order. */
+function detectWord(str) {
+	let word = "";
+    for(let i = 0; i < str.length; i++) {
+        if(str[i] === str[i].toLowerCase()) {
+            word += str[i];
+        }
+    }
+    return word;
+}
+
+console.log(detectWord("UcUNFYGaFYFYGtNUH"));
+console.log(detectWord("bEEFGBuFBRrHgUHlNFYaYr"));
+console.log(detectWord("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment"));
