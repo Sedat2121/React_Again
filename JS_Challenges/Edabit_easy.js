@@ -150,3 +150,13 @@ console.log(canNest([1, 2, 3, 4], [2, 3])); */
 console.log(numberSquares(4));
 console.log(numberSquares(5)); */
 
+// 8. Create a function that takes an array of values resistance that are connected in series, 
+// and calculates the total resistance of the circuit in ohms.
+// solution1:
+/*function seriesResistance(arr) {
+	return arr.reduce((a, b)=> {return a + b;})
+}
+
+console.log(seriesResistance([1, 4, 7, 11])); */
+
+//solution2
