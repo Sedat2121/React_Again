@@ -246,4 +246,19 @@ I really love backpacking in different countries, especially with different cult
 
 Outside of work, I enjoy fitness training, perfecting my golf swing, writing and recording music, and taking care of my dogs. This year I will be releasing my 4th album, which is all-instrumental, featuring classical guitar. I play every instrument and record tracks at my home office. Currently, two are streaming on iTunes and Amazon Music. I’m working towards a completion goal of late July. I find that music is a wonderful creative outlet and stress-reliever, as well as a perfect balance for my demanding career. It allows me to set personal goals and achieve them, which is also true of physical fitness. I’ve found that keeping my mind and body sharp improve every single facet of my life. 
 
-15. 
+15. Tell me about a time you had to manage conflicting priorities.
+```
+ 
+Describe the situation.
+Talk about the initial events that occurred. What were the problems that you were experiencing? What needed to be solved and what resources did you have--or not have? This is a really key part of the story, so it should be about three to four sentences long.
+ 
+Get into the action.
+Speak about the key milestones that you went through. Tell them what you did to turn the situation around. Don't go into too much detail though. It should only be about two to three sentences, and try to use active verbs, things like “I implemented” or “I persuaded”.
+ 
+Show the results.
+Let them know how well things turned out, how the problems were solved and what you may have learned along the way. Try to include a clincher at the end, like dollars saved or improved profitability. It drives home that you did a great thing.
+```
+I was asked at the last minute to help with a major project. The deadline was just a few days away and the project had gotten derailed. As I was working on this first urgent project, I was approached by two different clients with pressing requests as well. These conflicting priorities overwhelmed me at first. Then I came up with a plan to prioritize the tasks I was given based on their level of importance. I determined which clients were the most critical to our business and who needed deliverables with the quickest turnaround. I ranked the assignments and figured out how long it would take me to finish them. Then I checked in with my coworkers, clients, and manager to see if the timeline made sense to them. We added an additional team member, stayed in the office late for a few nights, and aligned with the clients on the new timeline. In the end, I was able to complete everything on time. Each client, manager and co-worker was satisfied with my work and were happy that I communicated my revised timeline so there weren’t any surprises at the end of the project. 
+
+When I worked for a technology company in the 3D printing space, their org had me reporting directly to a VP of North American Sales, as well the global VP of Sales based in Tel Aviv. This dotted line structure led to inherent priority conflict, as I was taking direction from 2 different department heads with very different expectations. I was not able to perform my role effectively with multiple managers, and it caused much undue stress. I approached my direct manager of our North American operation and asked that he contact the VP of our corporate location in Israel to request a change in reporting structure. Fortunately, I had already established myself as a valuable, contributing team member. This allowed me to approach this escalation with confidence, as my manager knew I was committed to excellence in my role. It turned out that this was a much larger, company-wide issue, and by bringing my situation to the attention of leadership, a larger conversation about reporting structure began. Ultimately, the company made the decision to phase out the dotted line reporting matrix globally. 
+
