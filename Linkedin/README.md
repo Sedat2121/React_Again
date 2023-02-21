@@ -229,4 +229,21 @@ Doing this can create a win-win situation for both parties. At the end of a nego
 ```
 I've been doing some research on the market for the role of Sales Analyst. What I found from LinkedIn's salary tool is that here in Chicago, base pay for these jobs tends to run between $61,000 and $71,000. Half the companies pay bonuses as well. Given the global impact of your company, and the fact that candidates with Master's degrees, like me, are being recruited most heavily, I think we should be looking toward the top end of that range. Why this answer worked well:She started off by giving a salary range instead of a specific number.She brought neutral research to the table, which establishes her as someone who's trustworthy, bold and grounded.She did a credible job of showing why she should be at that higher range, which made her come across as confident and steady.
 
-14. 
+14. What you do like to do outside of work?
+```
+With this question, employers are looking to get a feel for your likability and cultural fit. So what should you say—and not say? Here are a few tips.
+ 
+Pick one of your favorites.
+Go ahead and share something about your hobbies, volunteer work, or the places you enjoy traveling to. Maybe you're taking classes to help you accelerate your skills. In general, you just want to tell them something that's true and will paint you as an interesting, healthy, or good human being.
+ 
+Keep it short.
+For example, if you're a bird watcher in your free time, skip the 22-minute account of every species you've ever documented. Share enthusiastically so your passion shines through, but don't ramble on endlessly. Doing so might give the people to whom you're trying to make a good impression the feeling that you're nervous or that brevity just isn't your strong suit.
+ 
+Stick to appropriate topics.
+Avoid anything that might be pulverizing or offends somebody who's not a part of a particular group like politics or religion. Choose something uncontroversial or beneficial, and take advantage of the opportunity to show them that you're the complete package.
+```
+I really love backpacking in different countries, especially with different cultures than the one I grew up in. I find that it allows me to disconnect and recharge from everyday life, while growing and learning something new. To date, I’ve backpacked either alone or with friends in over 20 countries, across Asia, South and Central America. For our honeymoon, my wife and I travelled northern India for 6 weeks. It’s a very diverse region, home to Hindus, Muslims, and Buddhists, and we really enjoyed spending time in a few different states. We did a diverse set of activities like hiking the Himalayas and Ladakh, finding cool hot springs, and Vipassana meditation. Vipassan is a 10 days of silence meditation. I’ve really connected with the technique and have found it to be a powerful way to focus my attention and reset myself. Why this answer worked well:The candidate showed interest in learning from people with different backgrounds.The answer included hobbies centered around health and self-improvement.
+
+Outside of work, I enjoy fitness training, perfecting my golf swing, writing and recording music, and taking care of my dogs. This year I will be releasing my 4th album, which is all-instrumental, featuring classical guitar. I play every instrument and record tracks at my home office. Currently, two are streaming on iTunes and Amazon Music. I’m working towards a completion goal of late July. I find that music is a wonderful creative outlet and stress-reliever, as well as a perfect balance for my demanding career. It allows me to set personal goals and achieve them, which is also true of physical fitness. I’ve found that keeping my mind and body sharp improve every single facet of my life. 
+
+15. 
