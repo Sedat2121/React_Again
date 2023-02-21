@@ -197,3 +197,36 @@ Show the results.
 Let them know how well things turned out, how the problems were solved and what you may have learned along the way. Try to include a clincher at the end, like dollars saved or improved profitability. It drives home that you did a great thing.
 ```
 In my role on the innovation strategy team, I helped create a long-term innovation pipeline which led to multiple product launches for a critical business unit. While the company was a market leader in the space, we had been rapidly losing market share over the last few years. My first action was to identify the root cause of our declines. Through a detailed analysis, I identified that our product lineup didn’t fully satisfy evolving consumer needs. I also examined our past product launches and found that they’d lacked differentiated utility. I got approval from leadership to take an end-to-end approach using design thinking. We started with consumer immersions to understand how our products are used and which barriers we’d need to overcome. From there, we created new product concepts. We tested the concepts with consumers and created a long-term innovation pipeline. Finally, we partnered with cross-functional teams to charter and launch 3 products in just 2 years. This increased market share for the first time in 5 years, and we have seen sustained sales growth ever since. 
+
+
+12. Can you explain your employment gap?
+```
+Most people are nervous about how a gap will be perceived—even if there's a good explanation, But if they’ve invited you in for an interview, then the gap hasn’t ruled you out. Here are some tips on how to discuss it:
+ 
+Be honest.
+The truth will set you free. Try to put the situation into the best light and don't lie; it's bound to come back and haunt you. So if your job was eliminated through a merger, just say so.
+ 
+Speak with confidence.
+For example, if you had taken some time away from working, avoid acting like you're embarrassed, apologetic or ashamed. The interviewer is going to pick up on that. Instead, pause and you see how they respond. The more calm, succinct and confident you are, the more at ease the interviewer will be with your answer—and with you.
+ 
+Show the benefits of your time off.
+Bring up the good that came out of that time whether you were laid off, stepped away to be with family, or even got fired. It's a great way to reframe the situation and an opportunity to showcase some useful skills that you gained during that time.
+```
+Looking at my resume, you’ll notice I have an employment gap of 5 months. I was relocating internationally and had to go through the administrative process of procuring my travel visa and work authorization permits. During this time, I couldn’t legally be employed abroad. The time off was a blessing. It allowed me to recharge my batteries and use the time to stay current with industry and consumer trends. I took the opportunity to evaluate my career journey and make sure I was working towards my long-term goal of being a multinational general manager. Without the day-to-day hustle, I was able to be introspective and distill the lessons I’d taken away in previous roles, and start planning my intentions for the next. I also used the time to read up on the latest developments in design thinking and innovation, and even took a couple online courses in these spaces
+
+13. What are your salary expectations?
+```
+This is a question you'll get all too often, so here are a few tips to help you master the answer:
+ 
+Give them a salary range.
+Let them know there’s room to negotiate (instead of starting with a specific number). Avoid going too low though, because that's going to work against your interests. And don’t go too high either, or you may freeze yourself out of the opportunity.
+ 
+Do some neutral research.
+Give them a reasonable place to start from. You can use a resource like the LinkedIn Salary Tool to find out what other companies are paying people in this role and share with them what you learned about this salary range. Then they’ll have to base their compensation at least on those numbers because you've let them know what other similar organizations are giving to employees who do that job.
+ 
+Bring up signing bonuses. 
+Doing this can create a win-win situation for both parties. At the end of a negotiation, asking for extra money up top is often a way to bridge the gap between what you want and what you’re being offered.
+```
+I've been doing some research on the market for the role of Sales Analyst. What I found from LinkedIn's salary tool is that here in Chicago, base pay for these jobs tends to run between $61,000 and $71,000. Half the companies pay bonuses as well. Given the global impact of your company, and the fact that candidates with Master's degrees, like me, are being recruited most heavily, I think we should be looking toward the top end of that range. Why this answer worked well:She started off by giving a salary range instead of a specific number.She brought neutral research to the table, which establishes her as someone who's trustworthy, bold and grounded.She did a credible job of showing why she should be at that higher range, which made her come across as confident and steady.
+
+14. 
