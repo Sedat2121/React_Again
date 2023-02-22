@@ -262,3 +262,18 @@ I was asked at the last minute to help with a major project. The deadline was ju
 
 When I worked for a technology company in the 3D printing space, their org had me reporting directly to a VP of North American Sales, as well the global VP of Sales based in Tel Aviv. This dotted line structure led to inherent priority conflict, as I was taking direction from 2 different department heads with very different expectations. I was not able to perform my role effectively with multiple managers, and it caused much undue stress. I approached my direct manager of our North American operation and asked that he contact the VP of our corporate location in Israel to request a change in reporting structure. Fortunately, I had already established myself as a valuable, contributing team member. This allowed me to approach this escalation with confidence, as my manager knew I was committed to excellence in my role. It turned out that this was a much larger, company-wide issue, and by bringing my situation to the attention of leadership, a larger conversation about reporting structure began. Ultimately, the company made the decision to phase out the dotted line reporting matrix globally. 
 
+16. Where do you see yourself in 5 years?
+```
+The key to answering this question is to focus on what you can give to the employers or the role. Here are three tips:
+ 
+Break the time into chunks.
+Let them know what you might do in each two-to-three year period. This helps the interviewer to visualize and see what you're describing. Take them through what you plan to do in the first few years and how you plan to take it up a notch in the years after that.
+ 
+Talk about how your goals will help them.
+Paint a vivid picture about the value that you plan to deliver within each of those two-to-three year chunks that you described.
+ 
+Avoid talking about job titles.
+Resist the urge to tell them about what you want your position to be in two, three, or five years because that can come off as overly presumptuous.
+```
+My professional experience has provided a strong foundation and invaluable insight into my strengths, interests, and areas of opportunity. In the next 5 years, my aim is to continue to build strong relationships and trust by establishing myself as an expert in my field. This will require dedicated investment both in and outside of my role, gathering new perspectives from partners, colleagues, and mentors. I plan to spend the next 2-3 years honing my leadership skills. I’m a fast learner and enthusiastic student of the industry. In each role, I have sought mentorship, and would like to provide this kind of support to others in the future. I have enjoyed owning projects and leading collaborators, and believe that management is the next right path for me. That’s just one reason why I’m drawn to your company. I’ve heard incredible things about your management training programs, and I am looking for an organization I can grow with. I believe that I have both the drive and the soft skills to be a real asset to your team for years to come.
+
