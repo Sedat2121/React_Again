@@ -27,3 +27,18 @@
 // position b and returns a boolean representation of whether it's 
 // possible to earn a bonus on any die roll.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 4. Create a function that will return an integer number corresponding 
+// to the amount of digits in the given integer num.
