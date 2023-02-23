@@ -1,5 +1,5 @@
 // 1. Write a function that takes an array of numbers and returns the biggest and smallest in an object.
-function findBiggestAndSmallest(numbers)  {
+/*function findBiggestAndSmallest(numbers)  {
     let mini = numbers[0];
     let maxi = numbers[0];
 
@@ -19,4 +19,6 @@ function findBiggestAndSmallest(numbers)  {
 
 console.log(findBiggestAndSmallest([2, -5, 9, 99]));
 console.log(findBiggestAndSmallest([50]));
-console.log(findBiggestAndSmallest([]));
+console.log(findBiggestAndSmallest([])); */
+
+//2. 
