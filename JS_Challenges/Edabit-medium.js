@@ -16,7 +16,7 @@ console.log(countTrue([true, false, true, false, true])); */
 
 
 // 2. Write a function redundant that takes in a string str and returns a function that returns str.
-function redundant(str) {
+/* function redundant(str) {
 	function innerfun(){
         return str;
     }
@@ -24,26 +24,19 @@ function redundant(str) {
 }
 	
 console.log(redundant("apple"));
-console.log(redundant("alperen"));
+console.log(redundant("alperen")); */
 
 
 
-// 3. Create a function that takes your position a and your friend's 
-// position b and returns a boolean representation of whether it's 
-// possible to earn a bonus on any die roll.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// 4. Create a function that will return an integer number corresponding 
+// 3. Create a function that will return an integer number corresponding 
 // to the amount of digits in the given integer num.
+function num_of_digits(num) {
+	let count = 0;
+    while (num != 0) {
+        num = Math.floor(num / 10);
+        count += 1;
+    }
+    return count;
+}
+
+console.log(num_of_digits(23837463));
