@@ -30,7 +30,7 @@ console.log(redundant("alperen")); */
 
 // 3. Create a function that will return an integer number corresponding 
 // to the amount of digits in the given integer num.
-function num_of_digits(num) {
+/*function num_of_digits(num) {
 	let count = 0;
     while (num != 0) {
         num = Math.floor(num / 10);
@@ -39,4 +39,25 @@ function num_of_digits(num) {
     return count;
 }
 
-console.log(num_of_digits(23837463));
+console.log(num_of_digits(23837463)); */
+
+// 4. Create a function that takes your position a and your friend's 
+//position b and returns a boolean representation of whether 
+//it's possible to earn a bonus on any die roll.
+/*function possibleBonus(a, b) {
+    if(a === b || a+6 < b || a>b) {
+        return false;
+    }else if(b-a <= 6 ) {
+        return true;
+    }
+}
+
+console.log(possibleBonus(3, 2));
+
+console.log(possibleBonus(3, 3));
+
+console.log(possibleBonus(3, 5));
+
+console.log(possibleBonus(1, 9));
+
+console.log(possibleBonus(1, 7)); */
