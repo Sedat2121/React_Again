@@ -1,5 +1,5 @@
 // 1. Create a function which returns the number of true values there are in an array.
-function countTrue(arr) {
+/* function countTrue(arr) {
     let counter = 0;
     if(arr.length === 0)
             return 0;
@@ -12,26 +12,19 @@ function countTrue(arr) {
     return counter;
 }
 
-console.log(countTrue([true, false, true, false, true]));
-
-
-
-
-
-
-
+console.log(countTrue([true, false, true, false, true])); */
 
 
 // 2. Write a function redundant that takes in a string str and returns a function that returns str.
-
-
-
-
-
-
-
-
-
+function redundant(str) {
+	function innerfun(){
+        return str;
+    }
+    return innerfun();
+}
+	
+console.log(redundant("apple"));
+console.log(redundant("alperen"));
 
 
 
