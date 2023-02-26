@@ -119,4 +119,15 @@ console.log(toArray({ a: 1, b: 2 }));
 console.log(toArray({ shrimp: 15, tots: 12 })); */
 
 
-// 10. 
+// 10. Write a function that returns an anonymous function, which adds n to its input
+function addsNum(n) {
+	return (x) = (x) => {
+        return x+n;
+    }
+    
+}
+
+const add3 = addsNum(3);
+console.log(add3(20));
+const add11 = addsNum(11);
+console.log(add11(100));
