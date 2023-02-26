@@ -97,7 +97,7 @@ console.log(compact([0, 1, false, 2, "", 3, "hi"]));  */
 // 8. Create a function that takes a "base number" as an argument. 
 // This function should return another function which takes a new argument,
 // and returns the sum of the "base number" and the new argument.
-function makePlusFunction(baseNum) {
+/* function makePlusFunction(baseNum) {
 	return function(a) {
         return (baseNum + a);
     }
@@ -106,4 +106,14 @@ function makePlusFunction(baseNum) {
 let plustwo = makePlusFunction(2);
 let plusSeven = makePlusFunction(7);
 console.log(plustwo(4));
-console.log(plusSeven(11));
+console.log(plusSeven(11)); */
+
+
+// 9. Write a function that converts an object into an array, 
+//where each element represents a key-value pair in the form of an array.
+function toArray(obj) {
+	return Object.entries(obj);
+}
+
+console.log(toArray({ a: 1, b: 2 }));
+console.log(toArray({ shrimp: 15, tots: 12 }));
