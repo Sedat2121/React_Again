@@ -66,10 +66,20 @@ console.log(possibleBonus(1, 7)); */
 // 5. Create a function that takes numbers b and m as arguments and 
 //returns the derivative of the function f(x)=x^b with respect
 // to x evaluated at x=m, where b and m are constants.
-function derivative(b, m) {
+/* function derivative(b, m) {
 	return b * Math.pow(m, b-1);
 }
 
 console.log(derivative(1, 4));
 console.log(derivative(3, -2));
-console.log(derivative(4, -3));
+console.log(derivative(4, -3)); */
+
+
+// 6. Create a function that takes an integer n and returns the nth tetrahedral number.
+function tetra(n) {
+	return (n * (n + 1) * (n + 2)) / 6;
+
+}
+
+console.log(tetra(2));
+console.log(tetra(5));
