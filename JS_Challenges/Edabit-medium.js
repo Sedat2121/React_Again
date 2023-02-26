@@ -86,9 +86,24 @@ console.log(tetra(5)); */
 
 
 // 7.  write a function that receives an array and removes all falsey values.
-function compact(arr) {
+/*function compact(arr) {
 	const result = arr.filter(Boolean); // returns only truethy values.
     return result;
 }
 
-console.log(compact([0, 1, false, 2, "", 3, "hi"]));
+console.log(compact([0, 1, false, 2, "", 3, "hi"]));  */
+
+
+// 8. Create a function that takes a "base number" as an argument. 
+// This function should return another function which takes a new argument,
+// and returns the sum of the "base number" and the new argument.
+function makePlusFunction(baseNum) {
+	return function(a) {
+        return (baseNum + a);
+    }
+}
+
+let plustwo = makePlusFunction(2);
+let plusSeven = makePlusFunction(7);
+console.log(plustwo(4));
+console.log(plusSeven(11));
