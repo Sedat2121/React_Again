@@ -76,10 +76,19 @@ console.log(derivative(4, -3)); */
 
 
 // 6. Create a function that takes an integer n and returns the nth tetrahedral number.
-function tetra(n) {
+/*function tetra(n) {
 	return (n * (n + 1) * (n + 2)) / 6;
 
 }
 
 console.log(tetra(2));
-console.log(tetra(5));
+console.log(tetra(5)); */
+
+
+// 7.  write a function that receives an array and removes all falsey values.
+function compact(arr) {
+	const result = arr.filter(Boolean); // returns only truethy values.
+    return result;
+}
+
+console.log(compact([0, 1, false, 2, "", 3, "hi"]));
