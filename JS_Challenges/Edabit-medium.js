@@ -3,7 +3,7 @@
     let counter = 0;
     if(arr.length === 0)
             return 0;
-	for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         if (arr[i] === true) {
             counter += 1;
         }
@@ -17,7 +17,7 @@ console.log(countTrue([true, false, true, false, true])); */
 
 // 2. Write a function redundant that takes in a string str and returns a function that returns str.
 /* function redundant(str) {
-	function innerfun(){
+    function innerfun(){
         return str;
     }
     return innerfun();
@@ -31,7 +31,7 @@ console.log(redundant("alperen")); */
 // 3. Create a function that will return an integer number corresponding 
 // to the amount of digits in the given integer num.
 /*function num_of_digits(num) {
-	let count = 0;
+    let count = 0;
     while (num != 0) {
         num = Math.floor(num / 10);
         count += 1;
@@ -67,7 +67,7 @@ console.log(possibleBonus(1, 7)); */
 //returns the derivative of the function f(x)=x^b with respect
 // to x evaluated at x=m, where b and m are constants.
 /* function derivative(b, m) {
-	return b * Math.pow(m, b-1);
+    return b * Math.pow(m, b-1);
 }
 
 console.log(derivative(1, 4));
@@ -77,7 +77,7 @@ console.log(derivative(4, -3)); */
 
 // 6. Create a function that takes an integer n and returns the nth tetrahedral number.
 /*function tetra(n) {
-	return (n * (n + 1) * (n + 2)) / 6;
+    return (n * (n + 1) * (n + 2)) / 6;
 
 }
 
@@ -87,7 +87,7 @@ console.log(tetra(5)); */
 
 // 7.  write a function that receives an array and removes all falsey values.
 /*function compact(arr) {
-	const result = arr.filter(Boolean); // returns only truethy values.
+    const result = arr.filter(Boolean); // returns only truethy values.
     return result;
 }
 
@@ -98,7 +98,7 @@ console.log(compact([0, 1, false, 2, "", 3, "hi"]));  */
 // This function should return another function which takes a new argument,
 // and returns the sum of the "base number" and the new argument.
 /* function makePlusFunction(baseNum) {
-	return function(a) {
+    return function(a) {
         return (baseNum + a);
     }
 }
@@ -112,7 +112,7 @@ console.log(plusSeven(11)); */
 // 9. Write a function that converts an object into an array, 
 //where each element represents a key-value pair in the form of an array.
 /*function toArray(obj) {
-	return Object.entries(obj);
+    return Object.entries(obj);
 }
 
 console.log(toArray({ a: 1, b: 2 }));
@@ -120,8 +120,8 @@ console.log(toArray({ shrimp: 15, tots: 12 })); */
 
 
 // 10. Write a function that returns an anonymous function, which adds n to its input
-function addsNum(n) {
-	return (x) = (x) => {
+/* function addsNum(n) {
+    return (x) = (x) => {
         return x+n;
     }
     
@@ -130,4 +130,34 @@ function addsNum(n) {
 const add3 = addsNum(3);
 console.log(add3(20));
 const add11 = addsNum(11);
-console.log(add11(100));
+console.log(add11(100)); */
+
+
+// 11. Create a function that concatenates n input arrays, where n is variable
+/* function concat(...args) {
+    let a = [];
+    for (let i = 0; i < args.length; i++) {
+        for (let j = 0; j < args[i].length; j++) {
+            a.push(args[i][j]);
+        }
+    } 
+    return a;
+}
+
+console.log(concat([1, 2, 3], [4, 5], [6, 7]));
+console.log(concat([1], [2], [3], [4], [5], [6], [7]));
+console.log(concat([1, 2], [3, 4]));
+console.log(concat([4, 4, 4, 4])); 
+
+
+// Solution2;
+function concat(...args) {
+    return args.flat();
+}
+
+console.log(concat([1, 2, 3], [4, 5], [6, 7]));
+console.log(concat([1], [2], [3], [4], [5], [6], [7]));
+console.log(concat([1, 2], [3, 4]));
+console.log(concat([4, 4, 4, 4])); */
+
+
