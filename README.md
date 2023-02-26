@@ -761,3 +761,48 @@ let height = window.innerHeight || document.documentElement.clientHeight || docu
 > *source: https://www.javascripttutorial.*
 >
 > *net/javascript-dom/document-object-model-in-javascript/*
+
+```
+Summary: in this tutorial, you will learn how to convert an object to an array using Object’s methods.
+
+To convert an object to an array you use one of three methods: Object.keys(), Object.values(), and Object.entries().
+
+Note that the Object.keys() method has been available since ECMAScript 2015 or ES6, and the Object.values() and Object.entries() have been available since ECMAScript 2017.
+
+Suppose that you have a person object as follows:
+
+const person = {
+    firstName: 'John',
+    lastName: 'Doe'
+};
+Code language: JavaScript (javascript)
+To convert property’s names of the person object to an array, you use the Object.keys() method:
+
+const propertyNames = Object.keys(person);
+
+console.log(propertyNames);
+Code language: JavaScript (javascript)
+Output:
+
+[ 'firstName', 'lastName' ]
+Code language: JSON / JSON with Comments (json)
+To convert property’s values of the person object to an array, you use the Object.values() method:
+
+const propertyValues = Object.values(person);
+
+console.log(propertyValues);
+Code language: JavaScript (javascript)
+Output:
+
+[ 'John', 'Doe' ]
+Code language: JSON / JSON with Comments (json)
+To convert the enumerable string-keyed properties of an object to an array, you use the Object.entries() method. For example:
+
+const entries = Object.entries(person);
+
+console.log(entries);
+Code language: JavaScript (javascript)
+Output:
+
+[ [ 'firstName', 'John' ], [ 'lastName', 'Doe' ] ]
+```
