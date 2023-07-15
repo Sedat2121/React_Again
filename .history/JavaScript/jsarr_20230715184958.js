@@ -83,7 +83,4 @@ console.log(newArray);
 const fru = ["Banana", "Orange", "Apple", "Mango"];
 fru.splice(1, 2, "Melon");
 console.log(fru);
-// With clever parameter setting, you can use splice() to remove elements without leaving "holes" in the array
-fru.splice(2, 0);
-console.log(fru);
-
+fru.splice()

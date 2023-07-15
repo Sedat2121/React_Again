@@ -49,41 +49,4 @@ fruits[fruits.length] = "Watermelon";
 console.log(fruits);
 
 // Merging (Concatenating) Arrays
-// The concat() method creates a new array by merging (concatenating) existing arrays:
-const myGirls = ["Cecilie", "Lone"];
-const myBoys = ["Emil", "Tobias", "Linus"];
-const myChildren1 = myGirls.concat(myBoys);
-// console.log(myChildren1);
-// The concat() method does not change the existing arrays. It always returns a new array.
-
-// The concat() method can take any number of array arguments:
-const arr1 = ["Cecilie", "Lone"];
-const arr2 = ["Emil", "Tobias", "Linus"];
-const arr3 = ["Robin", "Morgan"];
-const myChildren2 = arr1.concat(arr2, arr3);
-// console.log(myChildren2);
-
-// The concat() method can also take strings as arguments:
-const arr11 = ["Emil", "Tobias", "Linus"];
-const myChildren3 = arr11.concat("Peter", arr3); 
-console.log(myChildren3);
-
-// flat()
-// Flattening an array is the process of reducing the dimensionality of an array.
-// The flat() method creates a new array with sub-array elements concatenated to a specified depth.
-const myArray = [[1, 3], [5, 7], [9, 11]];
-const newArray = myArray.flat();
-console.log(newArray);
-
-// splice ()
-// The splice() method can be used to add new items to an array
-// The first parameter (2) defines the position where new elements should be added (spliced in).
-// The second parameter (0) defines how many elements should be removed.
-// The rest of the parameters ("Lemon" , "Kiwi") define the new elements to be added.
-const fru = ["Banana", "Orange", "Apple", "Mango"];
-fru.splice(1, 2, "Melon");
-console.log(fru);
-// With clever parameter setting, you can use splice() to remove elements without leaving "holes" in the array
-fru.splice(2, 0);
-console.log(fru);
-
+// 

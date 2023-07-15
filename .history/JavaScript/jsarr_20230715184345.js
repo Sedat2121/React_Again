@@ -81,9 +81,4 @@ console.log(newArray);
 // The second parameter (0) defines how many elements should be removed.
 // The rest of the parameters ("Lemon" , "Kiwi") define the new elements to be added.
 const fru = ["Banana", "Orange", "Apple", "Mango"];
-fru.splice(1, 2, "Melon");
-console.log(fru);
-// With clever parameter setting, you can use splice() to remove elements without leaving "holes" in the array
-fru.splice(2, 0);
-console.log(fru);
-
+fru

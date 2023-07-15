@@ -86,4 +86,3 @@ console.log(fru);
 // With clever parameter setting, you can use splice() to remove elements without leaving "holes" in the array
 fru.splice(2, 0);
 console.log(fru);
-
