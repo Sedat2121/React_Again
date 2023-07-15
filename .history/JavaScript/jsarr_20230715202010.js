@@ -105,8 +105,4 @@ console.log(meArray.sort());
 console.log(meArray.reverse());
 
 // Numeric Sort
-const points = [23, 45, 1, 66, 78, 90];
-let choose = points.sort((a, b) => (a - b));
-// let choose2 = points.sort((a, b) => (b - a)); // descending order
-console.log(choose);
-// con sole.log(choose2); // descending
+const points = [];
