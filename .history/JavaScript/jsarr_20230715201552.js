@@ -102,5 +102,4 @@ const meArray = ["banana", "apple", "orange", "watermelon", "cherry"];
 console.log(meArray.sort());
 
 // The reverse() method reverses the elements in an array
-console.log(meArray.reverse());
-
+console.log(meArray.);

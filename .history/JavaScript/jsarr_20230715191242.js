@@ -92,15 +92,4 @@ console.log(fru);
 // The slice() method creates a new array
 // The slice() method does not remove any elements from the source array
 const fruit = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-const newFru = fruit.slice(2);
-console.log(newFru);
-
-
-// JavaScript Sorting Arrays
-// The sort() method sorts an array alphabetically
-const meArray = ["banana", "apple", "orange", "watermelon", "cherry"];
-console.log(meArray.sort());
-
-// The reverse() method reverses the elements in an array
-console.log(meArray.reverse());
-
+const newFru = fruit.slice(1);

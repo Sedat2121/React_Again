@@ -103,4 +103,3 @@ console.log(meArray.sort());
 
 // The reverse() method reverses the elements in an array
 console.log(meArray.reverse());
-
