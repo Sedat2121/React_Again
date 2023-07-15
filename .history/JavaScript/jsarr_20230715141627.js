@@ -36,9 +36,4 @@ console.log(fruits);
 const shifted = fruits.shift();
 console.log(shifted);
 
-// unshift()
-// The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
-// The unshift() method returns the new array length
-let newShifted = fruits.unshift("Limon");
-console.log(newShifted);
-console.log(fruits);
+// 

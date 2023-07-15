@@ -41,4 +41,3 @@ console.log(shifted);
 // The unshift() method returns the new array length
 let newShifted = fruits.unshift("Limon");
 console.log(newShifted);
-console.log(fruits);
